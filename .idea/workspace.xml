@@ -12,7 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a543a22-67a8-4059-9c0f-801dc9de30ec" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,12 +52,13 @@
       <file leaf-file-name="activity_main_drawer.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="467">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#555#587#0" expanded="true" />
                 <element signature="e#809#844#0" expanded="true" />
                 <element signature="e#1080#1118#0" expanded="true" />
+                <element signature="e#1350#1385#0" expanded="true" />
                 <element signature="e#1329#1352#0" expanded="true" />
                 <element signature="e#1571#1606#0" expanded="true" />
               </folding>
@@ -4458,7 +4461,9 @@
     <option name="width" value="1456" />
     <option name="height" value="936" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -4967,12 +4972,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="467">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#555#587#0" expanded="true" />
             <element signature="e#809#844#0" expanded="true" />
             <element signature="e#1080#1118#0" expanded="true" />
+            <element signature="e#1350#1385#0" expanded="true" />
             <element signature="e#1329#1352#0" expanded="true" />
             <element signature="e#1571#1606#0" expanded="true" />
           </folding>
