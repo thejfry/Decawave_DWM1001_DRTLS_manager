@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/floorPlanControls"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"/>
+
+    <ImageView
+        android:id="@+id/floorplan_control_lock"
+        android:src="@drawable/ic_lock_open"
+        style="@style/floorplan_control"
+        android:contentDescription="@string/floorplan_move_mode"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="24dp"/>
+
+    <ImageView
+        android:id="@+id/floorplan_control_rotate_left"
+        style="@style/floorplan_control"
+        android:src="@drawable/ic_rotate_left"
+        android:contentDescription="@string/floorplan_rotate"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="24dp"/>
+
+    <ImageView
+        android:id="@+id/floorplan_control_erase"
+        style="@style/floorplan_control"
+        android:src="@drawable/ic_trash_bin"
+        android:contentDescription="@string/floorplan_clear"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

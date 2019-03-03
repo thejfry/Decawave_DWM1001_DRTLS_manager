@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Decawave_DWM1001_DRTLS_manager.iml" filepath="$PROJECT_DIR$/Decawave_DWM1001_DRTLS_manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-commons/android-commons.iml" filepath="$PROJECT_DIR$/android-commons/android-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-dialogs/android-dialogs.iml" filepath="$PROJECT_DIR$/android-dialogs/android-dialogs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/argo-api/argo-api.iml" filepath="$PROJECT_DIR$/argo-api/argo-api.iml" />
+    </modules>
+  </component>
+</project>

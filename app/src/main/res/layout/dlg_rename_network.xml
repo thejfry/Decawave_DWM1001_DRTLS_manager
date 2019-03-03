@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+    >
+
+    <!-- Left, Right margins 20dp + 4dp default drawable inset -->
+
+    <EditText
+        android:id="@+id/etValue"
+        style="@style/RobotoRegular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/transparent_abc_edit_text_material"
+        android:capitalize="sentences"
+        android:ellipsize="end"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="@string/network_name_hint"
+        android:inputType="textCapSentences"
+        android:lines="1"
+        android:maxLines="1"
+        android:minLines="1"
+        android:minWidth="40dp"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textColor="?color_fg"
+        android:textCursorDrawable="@null"
+        android:text="Value"
+        android:textSize="24sp"
+        />
+
+</LinearLayout>

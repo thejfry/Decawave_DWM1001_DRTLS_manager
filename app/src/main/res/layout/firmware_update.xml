@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/nodeList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?color_bg_behind_cards"
+            />
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <!-- footer button bar -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_stroke_width"
+            android:background="?color_divider"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center_vertical|end"
+            android:orientation="horizontal"
+            android:paddingBottom="4dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="4dp"
+            >
+
+            <Button
+                android:id="@+id/updateButton"
+                style="@style/MtrlBorderlessButton"
+                android:text="@string/btn_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <!--android:text="Positive"-->
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvNoNodes"
+        android:text="@string/no_network_nodes"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</FrameLayout>

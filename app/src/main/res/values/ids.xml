@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<resources>
+
+    <item name="pref_preference_divider" type="id"/>
+    <item name="pref_preference_group" type="id"/>
+
+    <item name="pref_units" type="id"/>
+    <item name="pref_application_mode" type="id"/>
+    <item name="pref_version" type="id"/>
+    <item name="pref_device_id" type="id"/>
+    <item name="pref_about" type="id"/>
+
+</resources>

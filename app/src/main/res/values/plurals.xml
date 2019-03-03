@@ -1,0 +1,25 @@
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<resources>
+
+    <plurals name="number_of_anchors">
+        <item quantity="zero">no anchors</item>
+        <item quantity="other">anchors: %1$d</item>
+    </plurals>
+
+    <plurals name="number_of_tags">
+        <item quantity="zero">no tags</item>
+        <item quantity="other">tags: %1$d</item>
+    </plurals>
+
+    <plurals name="devices_found_so_far">
+        <item quantity="zero">no unassigned devices found so far</item>
+        <item quantity="one">1 unassigned device found so far</item>
+        <item quantity="other">%1$d unassigned devices found so far</item>
+    </plurals>
+
+</resources>

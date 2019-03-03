@@ -1,0 +1,474 @@
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<resources xmlns:ns1="http://schemas.android.com/tools" xmlns:tools="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.ArgoApp.AppTheme.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/mtrl_primary</item>
+        <item name="colorPrimaryDark">@color/mtrl_primary_dark</item>
+        <item name="colorAccent">@color/mtrl_accent</item>
+        <item name="actionModeCloseDrawable">@drawable/ic_clear_white</item>
+        <item name="actionModeStyle">@style/ActionMode</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ActionMode" parent="Widget.AppCompat.ActionMode">
+        <item name="android:background">@color/action_mode_background_color</item>
+        <item name="background">@color/action_mode_background_color</item>
+    </style>
+
+    <style name="ActionBarSpinnerText">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/abc_text_size_title_material_toolbar</item>
+        <item name="android:textColor">@color/color_fglight</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:lines">1</item>
+        <item name="android:background">@drawable/abc_spinner_mtrl_am_alpha</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="NodeListItem">
+        <item name="android:textSize">@dimen/abc_text_size_button_material</item>
+        <item name="android:fontFamily" ns1:ignore="NewApi">sans-serif</item>
+        <item name="android:background">@drawable/abc_item_background_holo_light</item>
+        <item name="android:selectable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:padding">0pt</item>
+        <item name="android:layout_margin">0pt</item>
+    </style>
+
+    <style name="ClickMeItem">
+        <item name="android:textSize">@dimen/abc_text_size_button_material</item>
+        <item name="android:fontFamily" ns1:ignore="NewApi">sans-serif</item>
+        <item name="android:background">@drawable/abc_item_background_holo_light</item>
+        <item name="android:padding">0pt</item>
+        <item name="android:layout_margin">0pt</item>
+    </style>
+
+    <style name="LogMessageEntry">
+        <item name="android:textSize">@dimen/log_message_text_size</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+
+    <style name="LogMessageTime" parent="LogMessageEntry">
+        <item name="android:paddingLeft">@dimen/log_fragment_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/log_message_time_right_margin</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:minWidth">@dimen/log_message_time_min_width</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="LogMessageInfoText" parent="LogMessageEntry">
+        <item name="android:paddingLeft">@dimen/log_message_text_left_margin</item>
+        <item name="android:paddingRight">@dimen/log_fragment_horizontal_margin</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="LogMessageBoldText" parent="LogMessageInfoText">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LogMessageErrorText" parent="LogMessageInfoText">
+        <item name="android:textColor">@color/log_error</item>
+    </style>
+
+    <style name="LogMessageWarnText" parent="LogMessageInfoText">
+        <item name="android:textColor">@color/log_warning</item>
+    </style>
+
+    <style name="AbstractNodeItem">
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="BigCardTitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?color_primary_text_fg</item>
+        <item name="android:textSize">@dimen/abc_text_size_display_1_material</item>
+    </style>
+
+    <style name="NodeTitleInNodeList">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primary_text_w_light_selection_light</item>
+        <item name="android:layout_marginTop">@dimen/node_title_margin_top</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+    <style name="NodeTitleInOverview" parent="NodeTitleInNodeList">
+        <item name="android:layout_marginTop">0dp</item>
+    </style>
+
+    <style name="NodeTitleInErrorList">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?color_primary_text_fg</item>
+        <item name="android:layout_marginTop">@dimen/node_title_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/node_title_margin_top</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="ErrorEntryTitle" parent="NodeTitleInErrorList">
+        <item name="android:textSize">@dimen/err_message_text_size</item>
+        <item name="android:textColor">@color/log_error</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="ErrorInFooterBar">
+        <item name="android:textSize">@dimen/abc_text_size_button_material</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/borderless_button_text_mtrl</item>
+        <item name="android:textAllCaps" tools:ignore="NewApi">true</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:minWidth">64dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:baselineAligned">true</item>
+    </style>
+
+
+
+    <style name="ErrorMessageBody" parent="NodeTitleInErrorList">
+        <item name="android:textSize">@dimen/err_message_text_size</item>
+        <item name="android:textColor">?color_secondary_text_fg</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginTop">@dimen/error_msg_body_spacing</item>
+        <item name="android:layout_marginBottom">@dimen/error_text_margin_bottom</item>
+    </style>
+
+    <style name="UnreachableNodeTitleInNodeList" parent="AbstractNodeItem">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/secondary_text_w_light_selection_light</item>
+        <item name="android:layout_marginTop">@dimen/node_title_margin_top</item>
+    </style>
+
+    <style name="NewNodeDiscoveredInNodeList" parent="AbstractNodeItem">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?color_primary_text_fg</item>
+        <item name="android:paddingTop">@dimen/new_node_discovered_card_padding</item>
+        <item name="android:paddingBottom">@dimen/new_node_discovered_card_padding</item>
+    </style>
+
+    <style name="NodeDetailsInNodeList">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:paddingBottom">1dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/secondary_text_w_light_selection_light</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+    <style name="SectionTitle">
+        <item name="android:paddingStart">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingEnd">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color_fglight</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="NodeTitleInTable" parent="NodeTitleInNodeList">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+
+    <style name="NodeDetailsInTable" parent="NodeDetailsInNodeList">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:paddingEnd">@dimen/activity_horizontal_margin</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:freezesText">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="NodeDetailsWarning" parent="NodeDetailsInTable">
+        <item name="android:textColor">@color/exclamation_mark_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AnchorDetailsPassiveUwb" parent="NodeDetailsInTable">
+        <item name="android:textColor">@color/color_passive_node</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="NodeDetailReadOnlyTitle" parent="NodeDetailsInNodeList">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">70dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="NodeDetailReadOnlyPayload" parent="NodeDetailsInNodeList">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/activity_horizontal_margin</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="BigTitle" parent="BigCardTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="NetworkTitleInList" parent="BigTitle"/>
+
+    <style name="NodeDetailPageTitle" parent="BigTitle"/>
+
+    <style name="DiscoveryRunning" parent="AbstractNodeItem">
+        <item name="android:textSize">@dimen/abc_text_size_small_material</item>
+        <item name="android:layout_marginTop">@dimen/discovery_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/discovery_margin_bottom</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?color_secondary_text_fg</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="NetworkDetailsInList" parent="NodeDetailsInNodeList"/>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="SbProgressNormal">
+        <item name="android:layout_width">@dimen/sbprogress_normal_size</item>
+        <item name="android:layout_height">@dimen/sbprogress_normal_size</item>
+        <item name="stroke_width">@dimen/sbprogress_normal_stroke_width</item>
+        <item name="stroke_color">?colorAccent</item>
+    </style>
+
+    <style name="NodeDetailPositionCompound">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:layout_marginEnd">0dp</item>
+        <item name="android:layout_marginStart">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="NodeDetailLine">
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingStart">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingEnd">@dimen/activity_horizontal_margin</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/abc_primary_text_material_light</item>
+
+    </style>
+
+    <style name="HorizontalRuler" parent="NodeDetailLine">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/color_divider_light</item>
+    </style>
+
+    <style name="NodeDetailPropertyTitle" parent="NodeDetailLine">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:layout_marginTop">@dimen/node_detail_property_title_margin_top</item>
+        <item name="android:textSize">@dimen/abc_text_size_small_material</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?color_secondary_text_fg</item>
+    </style>
+
+    <style name="FloorplanPropertyTitle" parent="NodeDetailPropertyTitle">
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="NodeDetailPropertyValue" parent="NodeDetailLine">
+        <item name="android:paddingBottom">@dimen/node_value_vertical_padding</item>
+        <item name="android:paddingTop">@dimen/node_value_vertical_padding</item>
+        <item name="android:textSize">@dimen/abc_text_size_menu_material</item>
+        <item name="android:layout_marginLeft">@dimen/node_value_left_padding</item>
+    </style>
+
+    <style name="editText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!-- marginLeft + paddingLeft = activity_horizontal_margin -->
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin_3_4</item>
+        <item name="android:layout_marginStart">@dimen/activity_horizontal_margin_3_4</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin_3_4</item>
+        <item name="android:layout_marginEnd">@dimen/activity_horizontal_margin_3_4</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin_1_4</item>
+        <item name="android:paddingStart">@dimen/activity_horizontal_margin_1_4</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin_1_4</item>
+        <item name="android:paddingEnd">@dimen/activity_horizontal_margin_1_4</item>
+        <item name="android:textSize">@dimen/abc_text_size_menu_material</item>
+    </style>
+
+    <style name="nodeTitleEdit" parent="editText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?color_primary_text_fg</item>
+        <item name="android:textSize">@dimen/abc_text_size_headline_material</item>
+    </style>
+
+    <style name="SpinnerLikeArrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/spinner_like_text_arrow_space</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/borderless_button_text_mtrl</item>
+    </style>
+
+    <style name="signalIndicatorStyle">
+        <item name="android:layout_width">18dp</item>
+        <item name="android:layout_marginEnd">14dp</item>
+        <item name="android:layout_marginStart">14dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="editText.coordinate">
+        <item name="android:inputType">numberDecimal|numberSigned</item>
+        <item name="android:animateLayoutChanges">true</item>
+    </style>
+
+    <style name="editText.pixel">
+        <item name="android:inputType">number|numberSigned</item>
+        <item name="android:animateLayoutChanges">true</item>
+    </style>
+
+    <style name="FloorplanPropertyValue" parent="NodeDetailPropertyValue">
+    </style>
+
+    <!-- Preference Item -->
+    <style name="PreferenceItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/activity_margin</item>
+        <item name="android:paddingRight">@dimen/activity_margin</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="PreferenceItemTextWrapper">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">@dimen/preference_item_padding_top</item>
+        <item name="android:paddingBottom">@dimen/preference_item_padding_bottom</item>
+        <item name="android:paddingRight">@dimen/preference_item_padding_side</item>
+    </style>
+
+    <style name="PreferenceItemTitleText" parent="RobotoRegular">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="PreferenceItemSummaryText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">10</item>
+    </style>
+
+    <!-- Preference Group -->
+    <style name="PreferenceGroup" parent="RobotoMedium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/preference_item_padding_side</item>
+        <item name="android:paddingRight">@dimen/preference_item_padding_side</item>
+        <item name="android:paddingTop">@dimen/preference_group_padding_top</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">?colorAccent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="RTLS_manager">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="actionIcon">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">@dimen/network_node_icon_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">?selectableItemBackground</item>
+        <item name="android:tint">@color/tint_action_icon</item>
+    </style>
+
+    <style name="floorplan_control">
+        <!-- this does not look good -->
+        <!--<item name="android:foreground">?android:attr/selectableItemBackground</item>-->
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/floor_plan_control</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">50dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_gravity">end</item>
+    </style>
+
+</resources>
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/NodeListItem">
+
+    <!-- Top space -->
+    <View
+        android:id="@+id/cardTop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_top_shadow_height"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/card_top_shadow"/>
+
+    <LinearLayout
+        android:id="@+id/cardContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="?color_card_bg">
+
+        <TextView
+            android:id="@+id/nodeBleAddress"
+            android:text="A1:B2:C3:D4:E5:F6"
+            style="@style/NodeTitleInErrorList"/>
+
+        <include layout="@layout/error_log_entry"/>
+
+    </LinearLayout>
+
+    <!-- bottom separator -->
+    <View
+        android:id="@+id/bottomSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_gravity="bottom"
+        android:background="?attr/color_bottom_separator"/>
+
+    <!-- last card bottom -->
+    <View
+        android:id="@+id/lastNodeBottomSeparator"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/card_bottom_shadow_height"
+        android:background="@drawable/card_bottom_shadow"/>
+
+</LinearLayout>
+
+

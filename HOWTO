@@ -1,0 +1,64 @@
+HOWTO apply changes in development repository to 910 repository
+
+1. create a git patch file (in dev):
+
+git format-patch <from-revision> --stdout > delivery.patch
+
+2. switch to a release repo
+
+cd 910-...
+
+3. create a temporary local Git branch
+
+git branch tmp
+git checkout tmp
+
+4. apply the patch onto tmp branch (creates a series of commits)
+
+git am < delivery.patch
+
+NOTE: Whenever you encounter problem applying patch, this is the recommended approach to fix:
+ - put the source tree in START state for those files whose patch cannot be applied (use original repo)
+ - use patch -p0 < .git/rebase-apply/patch
+ - do git add
+ - do git am --continue
+
+ Otherwise you are loosing changes!
+ Make sure there are no .orig files!
+
+5. switch to master branch
+
+git checkout master
+
+6. merge the tmp branch into master without really merging it (apply squashed commits instead)
+
+git merge --squash tmp
+
+
+
+DO NOT FORGET
+
+set the: APP_VERSION_NAME=0.D4.3
+
+in gradle.properties
+
+
+
+HOWTO build APK
+
+# ./gradlew assembleRelease
+
+The output can then be found at:
+
+./app/build/outputs/apk/app-release.apk
+
+Copy the APK to binaries/Dx/ArgoManager-Dx.apk
+The unsigned APK is useless (it cannot be installed without certificate).
+
+
+COMMIT DELIVERY
+
+commit your changes/applied diff
+
+git commit -m "delivery DX.X"
+

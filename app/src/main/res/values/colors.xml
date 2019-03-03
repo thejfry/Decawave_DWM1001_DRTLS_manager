@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<resources>
+    <color name="textFg">@color/primary_text_default_material_light</color>
+
+    <color name="color_dialog_bg">#ffffffff</color>
+    <color name="color_fglight">#ffffffff</color>
+
+    <color name="action_mode_icon_color">#ffffffff</color>
+    <color name="action_mode_background_color">#ff757575</color>
+
+    <color name="color_bg_light">@color/background_material_light</color>
+    <color name="color_bg_behind_cards_light">#eeeeee</color>
+    <color name="color_dialog_bg_light">#ffffffff</color>
+    <color name="color_pressed">@color/mtrl_secondary</color>
+    <color name="color_disabled_light">@color/primary_text_disabled_material_light</color>
+    <color name="color_preference_separator">#A5A5A5</color>
+    <color name="color_divider_light">#ffd7d7d7</color>
+    <color name="color_section_title_bg">@color/mtrl_secondary_transparent</color>
+    <color name="color_list_item_separator_light">#08000000</color>
+
+    <color name="color_orange">#FF8133</color>
+
+    <color name="color_fglight_light">#ffffffff</color>
+    <color name="color_fgdark_light">#ff000000</color>
+
+    <color name="color_grey_100_light">@color/material_grey_100</color>
+    <color name="color_secondary_text_fglight">#ddffffff</color>
+
+    <color name="log_error">#CC0000</color>
+    <color name="log_warning">@color/color_orange</color>
+
+    <!-- grid color -->
+    <color name="grid_line_color_primary">#e5e5e5</color>
+    <color name="grid_line_color_secondary">#e0e0e0</color>
+    <color name="grid_line_color_tertiary">#d0d0d0</color>
+
+    <color name="anchor_label_color">#a0a0a0</color>
+    <color name="anchor_color">@color/mtrl_primary</color>
+    <color name="exclamation_mark_color">@color/mtrl_primary</color>
+    <color name="color_passive_node">@color/color_orange</color>
+    <color name="anchor_fill_color">#ffffff</color>
+    <color name="anchor_missing_color">#a0a0a0</color>
+
+    <color name="tag_ranging_anchor_ok_color">#b5abe3</color>
+    <color name="tag_ranging_anchor_fail_color">#c66</color>
+    <color name="tag_label_color">#505050</color>
+    <color name="grid_label_color">#d0d0d0</color>
+
+    <color name="signal_bar_active">@color/mtrl_primary</color>
+    <color name="signal_bar_active_obsolete">#808080</color>
+    <color name="signal_bar_inactive">#bababa</color>
+
+    <color name="progress_fade_color">#88FFFFFF</color>
+
+    <color name="floorplan_control_background_color">#55000000</color>
+    <color name="floorplan_control_color">#ffffffff</color>
+    <color name="floorplan_control_color_pressed">#888888</color>
+
+
+</resources>

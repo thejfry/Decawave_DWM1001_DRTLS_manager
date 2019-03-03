@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Base.ArgoApp.AppTheme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!--
+          COLORS:
+            - colorPrimary - used for the default action bar background
+            - colorPrimaryDark - used for the status bar
+            - colorAccent - used as the default value for colorControlActivated which is used to tint widgets
+        -->
+
+        <!-- You can also set colorControlNormal, colorControlActivated,
+         colorControlHighlight & colorSwitchThumbNormal. -->
+
+        <!-- hamburger -->
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+
+        <!-- show the actionmode (menu popups) over the action bar (toolbar) instead of pushing it down -->
+        <item name="windowActionModeOverlay">true</item>
+
+        <!-- Disable activity transition animations -->
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowBackground">@color/background_material_light</item>
+        <item name="color_bg">@color/color_bg_light</item>
+        <item name="color_bg_behind_cards">@color/color_bg_behind_cards_light</item>
+        <item name="color_card_bg">@color/cardview_light_background</item>
+        <item name="color_fg">@color/primary_text_default_material_light</item>
+        <item name="color_primary_text_fg">@color/abc_primary_text_material_light</item>
+        <item name="color_secondary_text_fg">@color/abc_secondary_text_material_light</item>
+        <item name="color_secondary_text_fglight">@color/color_secondary_text_fglight</item>
+        <item name="color_drawer_bg">@color/cardview_light_background</item>
+        <item name="color_fglight">@color/color_fglight_light</item>
+        <item name="color_fgdark">@color/color_fgdark_light</item>
+        <item name="color_nav_drawer_text_fg">@color/primary_text_default_material_light</item>
+        <item name="cardview_style">@style/CardView.Light</item>
+        <item name="color_primary_text_w_light_selection_fg">@color/primary_text_w_light_selection_light</item>
+        <item name="color_secondary_text_w_light_selection_fg">@color/secondary_text_w_light_selection_light</item>
+        <item name="color_divider">@color/color_divider_light</item>
+        <item name="color_disabled">@color/color_disabled_light</item>
+        <item name="color_grey_100">@color/color_grey_100_light</item>
+        <item name="color_bottom_separator">@color/color_list_item_separator_light</item>
+        <item name="color_dialog_bg">@color/color_dialog_bg_light</item>
+    </style>
+
+</resources>

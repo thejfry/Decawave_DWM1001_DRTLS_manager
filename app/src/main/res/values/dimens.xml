@@ -1,0 +1,68 @@
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="activity_margin_3_4">12dp</dimen>
+    <dimen name="activity_margin_1_2">8dp</dimen>
+    <dimen name="activity_margin_1_4">4dp</dimen>
+    <dimen name="activity_horizontal_margin">@dimen/activity_margin</dimen>
+    <dimen name="activity_horizontal_margin_3_4">@dimen/activity_margin_3_4</dimen>
+    <dimen name="activity_horizontal_margin_1_4">@dimen/activity_margin_1_4</dimen>
+    <dimen name="activity_horizontal_margin_half">@dimen/activity_margin_1_2</dimen>
+
+    <!-- BLE debug log -->
+    <dimen name="log_fragment_horizontal_margin">10dp</dimen>
+    <dimen name="log_message_time_right_margin">8dp</dimen>
+    <dimen name="log_message_text_left_margin">0dp</dimen>
+    <dimen name="log_message_text_size">10sp</dimen>
+    <dimen name="log_message_time_min_width">60sp</dimen>
+
+    <dimen name="err_message_text_size">12sp</dimen>
+    <dimen name="activity_vertical_margin">@dimen/activity_margin</dimen>
+    <dimen name="node_value_left_padding">16dp</dimen>
+    <dimen name="node_value_vertical_padding">6dp</dimen>
+    <dimen name="activity_vertical_half_margin">@dimen/activity_margin</dimen>
+    <dimen name="activity_vertical_quarter_margin">@dimen/activity_margin_1_4</dimen>
+
+    <dimen name="card_bottom_shadow_height">5dp</dimen>
+    <dimen name="card_top_shadow_height">1dp</dimen>
+    <dimen name="grid_bottom_shadow_height">5dp</dimen>
+
+    <dimen name="discovery_margin_top">10dp</dimen>
+    <dimen name="discovery_margin_bottom">10dp</dimen>
+
+    <dimen name="node_title_margin_top">5dp</dimen>
+    <dimen name="error_text_margin_bottom">4dp</dimen>
+    <dimen name="node_detail_property_title_margin_top">@dimen/activity_margin_1_2</dimen>
+
+    <dimen name="node_details_table_margin">6dp</dimen>
+    <dimen name="node_details_table_double_margin">12dp</dimen>
+
+    <dimen name="new_node_discovered_card_padding">10dp</dimen>
+
+    <dimen name="sbprogress_normal_size">48dp</dimen>
+    <dimen name="sbprogress_normal_stroke_width">4dp</dimen>
+
+    <dimen name="divider_stroke_width">1dp</dimen>
+    <dimen name="spinner_like_text_arrow_space">20dp</dimen>
+    <dimen name="network_node_bottom_margin_half">3dp</dimen>
+    <dimen name="error_msg_body_spacing">1dp</dimen>
+
+    <dimen name="preference_group_padding_top">16dip</dimen>
+
+    <dimen name="preference_item_padding_side">16dip</dimen>
+    <dimen name="preference_item_padding_top">16dip</dimen>
+    <dimen name="preference_item_padding_bottom">16dip</dimen>
+
+    <dimen name="network_node_icon_width">48dp</dimen>
+    <dimen name="discovery_section_elevation">5dp</dimen>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<paths>
+    <!-- there is 'log' subdirectory in 'cache' app directory -->
+    <cache-path name="log" path="log/"/>
+</paths>
+

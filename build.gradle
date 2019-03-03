@@ -1,0 +1,48 @@
+/*
+ * LEAPS - Low Energy Accurate Positioning System.
+ *
+ * Copyright (c) 2016-2017, LEAPS. All rights reserved.
+ */
+
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'me.tatarka:gradle-retrolambda:3.6.1'
+        classpath 'com.jakewharton:butterknife-gradle-plugin:8.5.1'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url 'https://maven.google.com' }
+        maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+task appGdriveDebugUpload(type: Exec, dependsOn: ':app:assembleDebug') {
+    File file = new File("./app/build/outputs/apk/app-debug.apk")
+
+    commandLine 'gdrive', 'upload', '-p', '0B5vy2-8fNTkpRkV6ZlpwamtQNFU',
+            '--name', "ArgoManager-${file.lastModified()}-${rootProject.APP_VERSION_NAME}-v${rootProject.APP_VERSION_CODE}-debug.apk", "./app/build/outputs/apk/app-debug.apk"
+
+}
+
+task appGdriveReleaseUpload(type: Exec, dependsOn: ':app:assembleRelease') {
+    File file = new File("./app/build/outputs/apk/app-release.apk")
+
+    commandLine 'gdrive', 'upload', '-p', '0B5vy2-8fNTkpRkV6ZlpwamtQNFU',
+            '--name', "ArgoManager-${file.lastModified()}-${rootProject.APP_VERSION_NAME}-v${rootProject.APP_VERSION_CODE}-release.apk", "./app/build/outputs/apk/app-release.apk"
+
+}

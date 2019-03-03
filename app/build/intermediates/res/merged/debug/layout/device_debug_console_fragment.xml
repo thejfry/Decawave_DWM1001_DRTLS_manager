@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<LinearLayout android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.decawave.argomanager.ui.view.NodeStateView
+            android:id="@+id/nodeTypeView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end|top"
+            android:layout_margin="@dimen/activity_horizontal_margin"/>
+
+        <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+                                                android:id="@+id/logEntries"
+                                                android:scrollbars="vertical"
+                                                android:layout_marginTop="@dimen/activity_horizontal_margin_half"
+                                                android:layout_marginBottom="@dimen/activity_horizontal_margin_half"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+
+    <View style="@style/HorizontalRuler"
+          android:layout_marginTop="0dp"
+          android:paddingTop="0dp"/>
+
+    <!-- button bar -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="true"
+        android:scrollbars="none"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-2dp">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="1dp"/>
+
+            <Button
+                android:id="@+id/connectButton"
+                style="@style/MtrlBorderlessButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_connect"
+                />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="1dp"/>
+
+            <Button
+                android:id="@+id/fetchButton"
+                style="@style/MtrlBorderlessButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_fetch"
+                />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="1dp"/>
+
+            <Button
+                android:id="@+id/observePositionButton"
+                style="@style/MtrlBorderlessButton"
+                android:text="@string/btn_observe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <View
+                android:id="@+id/observePositionFiller"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="1dp"/>
+
+            <Button
+                android:id="@+id/disconnectButton"
+                style="@style/MtrlBorderlessButton"
+                android:text="@string/btn_disconnect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="1dp"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<resources>
+
+    <!--
+
+        Supported fontFamily values:
+            API LEVEL 16 (Android 4.1 Jelly Bean)
+                - sans-serif              Roboto Regular
+                - sans-serif-light        Roboto Light
+                - sans-serif-condensed    Roboto Condensed
+            API LEVEL 17 (Android 4.2 Jelly Bean MR1)
+                - sans-serif-thin         Roboto Thin
+            API LEVEL 21 (Android 5 Lollipop)
+                - sans-serif-medium       Roboto Medium
+
+        Variants:
+            Regular
+            Italic
+            Bold
+            Bold-italic
+            Light
+            Light-italic
+            Thin
+            Thin-italic
+            Condensed regular
+            Condensed italic
+            Condensed bold
+            Condensed bold-italic
+
+            Regular :
+            <item name="android:fontFamily">sans-serif</item>
+            <item name="android:textStyle">normal</item>
+
+            Italic :
+            <item name="android:fontFamily">sans-serif</item>
+            <item name="android:textStyle">italic</item>
+
+            Bold :
+            <item name="android:fontFamily">sans-serif</item>
+            <item name="android:textStyle">bold</item>
+
+            Bold-italic :
+            <item name="android:fontFamily">sans-serif</item>
+            <item name="android:textStyle">bold|italic</item>
+
+            Light :
+            <item name="android:fontFamily">sans-serif-light</item>
+            <item name="android:textStyle">normal</item>
+
+            Light-italic :
+            <item name="android:fontFamily">sans-serif-light</item>
+            <item name="android:textStyle">italic</item>
+
+            Thin :
+            <item name="android:fontFamily">sans-serif-thin</item>
+            <item name="android:textStyle">normal</item>
+
+            Thin-italic :
+            <item name="android:fontFamily">sans-serif-thin</item>
+            <item name="android:textStyle">italic</item>
+
+            Condensed regular :
+            <item name="android:fontFamily">sans-serif-condensed</item>
+            <item name="android:textStyle">normal</item>
+
+            Condensed italic :
+            <item name="android:fontFamily">sans-serif-condensed</item>
+            <item name="android:textStyle">italic</item>
+
+            Condensed bold :
+            <item name="android:fontFamily">sans-serif-condensed</item>
+            <item name="android:textStyle">bold</item>
+
+            Condensed bold-italic :
+            <item name="android:fontFamily">sans-serif-condensed</item>
+            <item name="android:textStyle">bold|italic</item>
+
+
+    -->
+
+    <!-- Roboto Regular (APILEVEL < 16) -->
+    <style name="RobotoLight" parent="Base.TextAppearance.AppCompat">
+    </style>
+
+    <!-- Roboto Regular (APILEVEL < 16) -->
+    <style name="RobotoRegular" parent="Base.TextAppearance.AppCompat">
+    </style>
+
+    <!-- Roboto Medium (APILEVEL < 21) -->
+    <style name="RobotoMedium" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

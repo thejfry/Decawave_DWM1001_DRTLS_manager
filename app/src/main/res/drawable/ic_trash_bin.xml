@@ -1,0 +1,20 @@
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:height="24dp" android:viewportHeight="8.5"
+        android:viewportWidth="8.5"
+        android:width="24dp"
+        android:tint="@color/tint_floorplan_control_icon">
+
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="m3.711,6.343v-2.646c0,-0.146 -0.119,-0.265 -0.265,-0.265 -0.146,0 -0.265,0.119 -0.265,0.265v2.646c0,0.146 0.119,0.265 0.265,0.265 0.146,0 0.265,-0.118 0.265,-0.265z" android:strokeWidth="0.26458332"/>
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="m7.448,1.536h-1.689l-0.456,-0.912c-0.045,-0.09 -0.136,-0.146 -0.237,-0.146h-1.587c-0.1,0 -0.192,0.057 -0.237,0.146l-0.456,0.912h-1.689c-0.146,0 -0.265,0.119 -0.265,0.265 0,0.146 0.119,0.265 0.265,0.265h5.292v5.292h-4.233v-4.498c0,-0.146 -0.119,-0.265 -0.265,-0.265 -0.146,0 -0.265,0.119 -0.265,0.265v4.762c0,0.146 0.119,0.265 0.265,0.265h4.762c0.146,0 0.265,-0.118 0.265,-0.265v-5.556h0.529c0.146,0 0.265,-0.119 0.265,-0.265 0,-0.146 -0.118,-0.265 -0.265,-0.265zM3.643,1.007h1.26l0.265,0.529h-1.79z" android:strokeWidth="0.26458332"/>
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="m5.447,6.343v-2.646c0,-0.146 -0.119,-0.265 -0.265,-0.265 -0.146,0 -0.265,0.119 -0.265,0.265v2.646c0,0.146 0.119,0.265 0.265,0.265 0.146,0 0.265,-0.118 0.265,-0.265z" android:strokeWidth="0.26458332"/>
+</vector>

@@ -1,0 +1,50 @@
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<resources>
+
+    <!-- Primary text color (i.e. primary text color) -->
+    <attr name="color_primary_text_fg" format="reference"/>
+
+    <!-- Background color of a card-->
+    <attr name="color_card_bg" format="reference"/>
+    <!-- CardView style -->
+    <attr name="cardview_style" format="reference"/>
+    <!-- Content background color (i.e. app background) -->
+    <attr name="color_bg" format="reference"/>
+    <!-- Background color behind cards-->
+    <attr name="color_bg_behind_cards" format="reference"/>
+    <!-- REF TO COLOR -->
+    <attr name="color_dialog_bg" format="reference"/>
+    <!-- Grey 100 -->
+    <attr name="color_grey_100" format="reference"/>
+    <!-- Divider color -->
+    <attr name="color_divider" format="reference"/>
+    <!-- Drawer's background color -->
+    <attr name="color_drawer_bg" format="reference"/>
+    <!-- Content foreground color (i.e. primary text color) -->
+    <attr name="color_fg" format="reference"/>
+    <!-- Content dark foreground color (i.e. text color on light background) -->
+    <attr name="color_fgdark" format="reference"/>
+    <!-- Content light foreground color (i.e. text color on dark background) -->
+    <attr name="color_fglight" format="reference"/>
+    <!-- Navigation drawer text foreground color -->
+    <attr name="color_nav_drawer_text_fg" format="reference"/>
+    <!-- Secondary text foreground color -->
+    <attr name="color_secondary_text_fg" format="reference"/>
+    <!-- Secondary light text foreground color (i.e. text color on dark background) -->
+    <attr name="color_secondary_text_fglight" format="reference"/>
+    <!-- Disabled color -->
+    <attr name="color_disabled" format="reference"/>
+    <!-- Bottom separator -->
+    <attr name="color_bottom_separator" format="reference"/>
+
+
+
+    <attr name="color_primary_text_w_light_selection_fg" format="reference"/>
+    <attr name="color_secondary_text_w_light_selection_fg" format="reference"/>
+
+</resources>

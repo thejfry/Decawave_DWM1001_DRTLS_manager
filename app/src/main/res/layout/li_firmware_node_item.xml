@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              style="@style/NodeListItem"
+    >
+
+    <!-- Top space -->
+    <View
+        android:id="@+id/cardTop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_top_shadow_height"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/card_top_shadow"/>
+
+    <LinearLayout
+        android:id="@+id/cardContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="?color_card_bg"
+        android:orientation="horizontal">
+
+
+        <FrameLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:duplicateParentState="true"
+            >
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/nodeCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/activity_horizontal_margin_3_4"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin_3_4"
+                />
+
+            <com.decawave.argomanager.ui.view.NodeStateView
+                android:id="@+id/nodeType"
+                android:layout_width="24dp"
+                android:layout_marginStart="@dimen/activity_horizontal_margin_3_4"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin_3_4"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:duplicateParentState="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/nodeName"
+                android:text="node name"
+                style="@style/NodeTitleInNodeList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/bleAddress"
+                android:text="A1:B2:C3:D4:E5:F6"
+                style="@style/NodeDetailsInNodeList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvFirmware1VersionAndChecksum"
+                android:text="FW1: 0x001000110/0x89082237"
+                style="@style/NodeDetailsInNodeList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvFirmware2VersionAndChecksum"
+                android:text="FW2: 0x001000110/0xA9797B97"
+                style="@style/NodeDetailsInNodeList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!-- bottom spacing -->
+            <View
+                android:layout_width="1dp"
+                android:layout_height="5dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            />
+
+        <LinearLayout
+            android:id="@+id/uploadProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/uploadFwType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/activity_horizontal_margin_half"
+                android:text="FW1"
+                android:textSize="9sp"
+                android:layout_gravity="start"
+                android:paddingBottom="3dp"
+                tools:ignore="RtlSymmetry,SmallSp" />
+
+            <TextView
+                android:id="@+id/uploadPercentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="36dp"
+                android:paddingEnd="@dimen/activity_horizontal_margin_half"
+                android:layout_gravity="start"
+                android:text="3%"
+                android:paddingBottom="@dimen/node_title_margin_top"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- bottom separator -->
+    <com.decawave.argomanager.ui.view.SimpleProgressView
+        android:id="@+id/progressView"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_gravity="bottom"
+        android:background="?attr/color_bottom_separator"/>
+
+    <!-- last card bottom -->
+    <View
+        android:id="@+id/lastNodeBottomSeparator"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/card_bottom_shadow_height"
+        android:background="@drawable/card_bottom_shadow"/>
+
+</LinearLayout>

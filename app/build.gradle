@@ -1,0 +1,134 @@
+/*
+ * LEAPS - Low Energy Accurate Positioning System.
+ *
+ * Copyright (c) 2016-2017, LEAPS. All rights reserved.
+ */
+
+buildscript {
+    // need this in order for the fabric to have the project built properly
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        // here is the list of all versions: https://s3.amazonaws.com/fabric-artifacts/public/io/fabric/tools/gradle/maven-metadata.xml
+        classpath 'io.fabric.tools:gradle:1.22.2'
+    }
+}
+
+// specifically (only) this mobile project needs fabric
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'com.jakewharton.butterknife'
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+// groovy helper function - to get build time
+import java.text.SimpleDateFormat
+
+ext.getTime = { ->
+    def date = new Date()
+    return new SimpleDateFormat("MM/dd/yyyy HH:mm:ss").format(date)
+}
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+android {
+    compileSdkVersion Integer.parseInt(project.SDK_VERSION_TARGET)
+    buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
+    defaultConfig {
+        applicationId "com.decawave.argomanager"
+        minSdkVersion Integer.parseInt(project.SDK_VERSION_MIN)
+        targetSdkVersion Integer.parseInt(project.SDK_VERSION_TARGET)
+        versionCode Integer.parseInt(project.APP_VERSION_CODE)
+        versionName project.APP_VERSION_NAME
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    signingConfigs {
+        debug {
+            storeFile file(System.getProperty("user.home") + '/.android/debug.keystore')
+            storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+        }
+        release {
+            storeFile file("${rootDir}/keystore/dw-argo-manager-release-key.keystore")
+            storePassword 'enter-your-password-here'
+            keyAlias 'dw_argomanager'
+            keyPassword 'enter-your-password-here'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+            buildConfigField "String", "BUILD_TIME", "\"" + getTime() + "\""
+        }
+        debug {
+            minifyEnabled false
+            buildConfigField "String", "BUILD_TIME", "\"" + getTime() + "\""
+        }
+    }
+    lintOptions {
+          abortOnError false
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+def dagger_version = "2.9"
+def butterknife_version = "8.5.1"
+
+dependencies {
+    compile project(path: ':argo-api')
+    // android-commons
+    releaseCompile project(path: ':android-commons', configuration: 'release')
+    debugCompile project(path: ':android-commons', configuration: 'debug')
+    // android-dialogs
+    releaseCompile project(path: ':android-dialogs', configuration: 'release')
+    debugCompile project(path: ':android-dialogs', configuration: 'debug')
+
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    // flexible adapter
+    compile 'eu.davidea:flexible-adapter:5.0.0-rc2'
+    compile 'eu.davidea:flexible-adapter-databinding:1.0.0-b1@aar'
+    // FlipView
+    compile 'eu.davidea:flipview:1.1.3'
+    // dagger
+    compile "com.google.dagger:dagger:$dagger_version"
+    annotationProcessor "com.google.dagger:dagger-compiler:$dagger_version"
+    provided 'javax.annotation:jsr250-api:1.0'
+    // butterknife
+    compile "com.jakewharton:butterknife:$butterknife_version"
+    annotationProcessor "com.jakewharton:butterknife-compiler:$butterknife_version"
+    // other
+    compile 'com.github.nisrulz:sensey:1.5.1'
+    compile 'com.android.support:appcompat-v7:' + project.ANDROID_SUPPORT_LIBRARY_VERSION
+    compile 'com.android.support:support-v4:' + project.ANDROID_SUPPORT_LIBRARY_VERSION
+    compile 'com.android.support:design:' + project.ANDROID_SUPPORT_LIBRARY_VERSION
+    compile 'com.android.support:cardview-v7:' + project.ANDROID_SUPPORT_LIBRARY_VERSION
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'com.annimon:stream:1.1.7'
+    compile 'org.apache.commons:commons-collections4:4.1'
+    compile 'org.apache.commons:commons-lang3:3.5'
+    compile 'commons-io:commons-io:2.5'
+    compile 'com.afollestad.material-dialogs:core:0.9.4.2'
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.7@aar') {
+        transitive = true;
+    }
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:2.7.22'
+    // multidex
+    compile 'com.android.support:multidex:1.0.1'
+}

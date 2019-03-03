@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              style="@style/NodeListItem"
+    >
+
+    <LinearLayout
+        android:id="@+id/cardContent"
+        android:clickable="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="?color_card_bg"
+        android:orientation="horizontal">
+
+
+        <!-- Button: drag handle -->
+        <ImageView
+            android:id="@+id/btnDragHandle"
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingEnd="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingStart="@dimen/activity_horizontal_margin_half"
+            android:src="@drawable/ic_drag_handle_grey_24dp"
+            android:contentDescription="@string/drag_handle" />
+
+        <LinearLayout
+            android:duplicateParentState="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/nodeName"
+                android:text="node name"
+                style="@style/NodeTitleInNodeList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/bleAddress"
+                android:text="A1:B2:C3:D4:E5:F6"
+                style="@style/NodeDetailsInNodeList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvPosition"
+                android:text="position: x = 10.28, y = 2.56"
+                style="@style/NodeDetailsInNodeList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvNodeState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                style="@style/NodeDetailsInNodeList"
+                android:textColor="@color/mtrl_primary"
+                android:paddingEnd="@dimen/activity_horizontal_margin_half"
+                android:text="@string/ap_distance_retrieval_fail"
+                tools:ignore="RtlSymmetry" />
+
+
+            <!-- bottom spacing -->
+            <View
+                android:layout_width="1dp"
+                android:layout_height="6dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <!-- bottom separator -->
+    <com.decawave.argomanager.ui.view.SimpleProgressView
+        android:id="@+id/progressView"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_gravity="bottom"
+        android:background="?attr/color_bottom_separator"/>
+
+</LinearLayout>
