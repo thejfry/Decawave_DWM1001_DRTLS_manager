@@ -88,7 +88,7 @@ MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Jeffrey\.androi
 	android:allowBackup
 		ADDED from C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\src\main\AndroidManifest.xml:33:9-36
 	android:icon
-		ADDED from C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\src\main\AndroidManifest.xml:34:9-45
+		ADDED from C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\src\main\AndroidManifest.xml:34:9-53
 	android:theme
 		ADDED from C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\src\main\AndroidManifest.xml:37:9-40
 	android:name

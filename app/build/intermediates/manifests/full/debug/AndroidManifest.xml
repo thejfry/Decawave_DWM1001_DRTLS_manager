@@ -40,7 +40,7 @@
     <application
         android:name="com.decawave.argomanager.ArgoApp"
         android:allowBackup="false"
-        android:icon="@drawable/ic_app_icon"
+        android:icon="@drawable/tn_logo_on_red_back"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >

@@ -2709,25 +2709,25 @@ public final class R2 {
     public static final int avd_hide_password = 0x7f020053;
 
     @DrawableRes
-    public static final int avd_hide_password_1 = 0x7f02009b;
+    public static final int avd_hide_password_1 = 0x7f02009c;
 
     @DrawableRes
-    public static final int avd_hide_password_2 = 0x7f02009c;
+    public static final int avd_hide_password_2 = 0x7f02009d;
 
     @DrawableRes
-    public static final int avd_hide_password_3 = 0x7f02009d;
+    public static final int avd_hide_password_3 = 0x7f02009e;
 
     @DrawableRes
     public static final int avd_show_password = 0x7f020054;
 
     @DrawableRes
-    public static final int avd_show_password_1 = 0x7f02009e;
+    public static final int avd_show_password_1 = 0x7f02009f;
 
     @DrawableRes
-    public static final int avd_show_password_2 = 0x7f02009f;
+    public static final int avd_show_password_2 = 0x7f0200a0;
 
     @DrawableRes
-    public static final int avd_show_password_3 = 0x7f0200a0;
+    public static final int avd_show_password_3 = 0x7f0200a1;
 
     @DrawableRes
     public static final int card_bottom_shadow = 0x7f020055;
@@ -2916,10 +2916,10 @@ public final class R2 {
     public static final int notification_icon_background = 0x7f020092;
 
     @DrawableRes
-    public static final int notification_template_icon_bg = 0x7f020099;
+    public static final int notification_template_icon_bg = 0x7f02009a;
 
     @DrawableRes
-    public static final int notification_template_icon_low_bg = 0x7f02009a;
+    public static final int notification_template_icon_low_bg = 0x7f02009b;
 
     @DrawableRes
     public static final int notification_tile_bg = 0x7f020093;
@@ -2934,10 +2934,13 @@ public final class R2 {
     public static final int tn_logo = 0x7f020096;
 
     @DrawableRes
-    public static final int transparent_abc_edit_text_material = 0x7f020097;
+    public static final int tn_logo_on_red_back = 0x7f020097;
 
     @DrawableRes
-    public static final int transparent_abc_textfield_activated_mtrl_alpha = 0x7f020098;
+    public static final int transparent_abc_edit_text_material = 0x7f020098;
+
+    @DrawableRes
+    public static final int transparent_abc_textfield_activated_mtrl_alpha = 0x7f020099;
   }
 
   public static final class id {
