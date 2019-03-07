@@ -6,6 +6,7 @@
 
 <resources>
     <string name="app_name">Decawave DRTLS Manager</string>
+    <string name="app_subtitle">Updated by Trilateration Nation</string>
 
     <string name="app_version">Version: %1$s</string>
     <string name="drag_handle">drag handle</string>

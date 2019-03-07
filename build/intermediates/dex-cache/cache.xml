@@ -3,15 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Jeffrey\.android\build-cache\e11648d26e6497ea11bfb6bf4f57bcc0e7a776e3\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="a64026daf4819a589aea776f5deb19b257a104d1">
-        <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_35b3395683dea110912d53ea9f1edacd9dce0dca\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Jeffrey\.android\build-cache\d041bb19a079b28e78439ddd887b647aab635780\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -21,12 +12,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Jeffrey\.android\build-cache\329e966038ca1093eb1ab2f58a45003319afde02\output\jars\classes.jar"
+        jar="C:\Users\Jeffrey\.android\build-cache\e11648d26e6497ea11bfb6bf4f57bcc0e7a776e3\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c75518516d7815d687e8eca26f99b55d019f9317\classes.dex" />
+        sha1="a64026daf4819a589aea776f5deb19b257a104d1">
+        <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_35b3395683dea110912d53ea9f1edacd9dce0dca\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -39,6 +30,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Jeffrey\.android\build-cache\6bdd91c9cadc89afee47ef1fe1a90753abbe9816\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b0b31cfdc87bd27ff394c5802ab9aa4632750981">
+        <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6d1da04581b66da622320dfc59de35b9c381df6d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Jeffrey\.android\build-cache\eb806129285ef221fc97f9052f1fc4af75578a1f\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -48,12 +48,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Jeffrey\.android\build-cache\6bdd91c9cadc89afee47ef1fe1a90753abbe9816\output\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\Jeffrey\.android\build-cache\329e966038ca1093eb1ab2f58a45003319afde02\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="26.0.2"
-        sha1="b0b31cfdc87bd27ff394c5802ab9aa4632750981">
-        <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6d1da04581b66da622320dfc59de35b9c381df6d\classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c75518516d7815d687e8eca26f99b55d019f9317\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -84,21 +84,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Jeffrey\.android\build-cache\244b5230145973b98fda5e9d2661638a8cd43e17\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="dc07400a23f4b240a943171bef2725ce3353e429">
-        <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_68a2f9d5ceb31c57c741ce0a75d55261db23bfb6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Jeffrey\.android\build-cache\38be0b27439a17f46111add0ecbf820020865700\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="40a6b8f05124eb9e6012e18b80a6dbd13440e283">
         <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1a1e26735972fb352973a25b8f2e5018afeab681\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jeffrey\.android\build-cache\244b5230145973b98fda5e9d2661638a8cd43e17\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dc07400a23f4b240a943171bef2725ce3353e429">
+        <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_68a2f9d5ceb31c57c741ce0a75d55261db23bfb6\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -462,21 +462,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Jeffrey\.android\build-cache\eb806129285ef221fc97f9052f1fc4af75578a1f\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="5c812ad0773ab307151802099a33575fa7bb270b">
-        <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d59f184e3c33c15c2425fd64026a9c4a66e993d6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Jeffrey\.android\build-cache\754161f789950e5c54051b6e42143c99c832eacf\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="a846ddbf5bf88dee5f89d4dffe22c864f576d9b0">
         <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a04dd1ad6582c0fb26c4729fb28f2c43e4181a3c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jeffrey\.android\build-cache\eb806129285ef221fc97f9052f1fc4af75578a1f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5c812ad0773ab307151802099a33575fa7bb270b">
+        <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d59f184e3c33c15c2425fd64026a9c4a66e993d6\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -543,21 +543,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Jeffrey\.android\build-cache\729b7c83c96321b16cba2eb00e072771ed59e80d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="cad1364721fc716a39bdc351d3637edb634c9aa5">
-        <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9f5b334bd6111d071be4a5e6341f0619bb367f27\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Jeffrey\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-collections4\4.1\a4cf4688fe1c7e3a63aa636cc96d013af537768e\commons-collections4-4.1.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
         sha1="a4cf4688fe1c7e3a63aa636cc96d013af537768e">
         <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\commons-collections4-4.1_7bfadba801beac98a901ac25240ad10fbffaae91\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jeffrey\.android\build-cache\729b7c83c96321b16cba2eb00e072771ed59e80d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cad1364721fc716a39bdc351d3637edb634c9aa5">
+        <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9f5b334bd6111d071be4a5e6341f0619bb367f27\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -570,21 +570,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Jeffrey\.android\build-cache\f45ed4d36d369559cde4fbb6782f61fb83e4ae86\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="263c1c941f603469ecbaf8745f7b2d18ae85c5c0">
-        <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9b5026e83b2f1065267bdfdfa0f39bc107ac3c62\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Jeffrey\.android\build-cache\4efc112b945b8b32616c909e64ea06dc4e9432a4\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
         sha1="8c8243677105d9c78cfbf553b55e256b3d4bea39">
         <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b6a442e97a8e0b067ae57c869096600ff4e20cd6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jeffrey\.android\build-cache\f45ed4d36d369559cde4fbb6782f61fb83e4ae86\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="263c1c941f603469ecbaf8745f7b2d18ae85c5c0">
+        <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9b5026e83b2f1065267bdfdfa0f39bc107ac3c62\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -642,21 +642,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Jeffrey\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.5.1\bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc\butterknife-annotations-8.5.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
-        <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.5.1_db88f5defbca665587fca316637597778c325987\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Jeffrey\.android\build-cache\ecfeb874e8a68f99305e4a7ee0f81e72bfe48c92\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="844efef744581e604ea77683555271ebbd61d871">
         <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7bf711e17c9bf040059518ad7791fc20f7a7cc41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jeffrey\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.5.1\bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc\butterknife-annotations-8.5.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
+        <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.5.1_db88f5defbca665587fca316637597778c325987\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -669,21 +669,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Jeffrey\.android\build-cache\7d76a11afb8e7e730b0d39fcb9dc30fd91cf78ca\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="e04f28ac2dd9bbe48ced6fc87fedf46c2586f5d6">
-        <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fe4af3d5ef4a9d8a0d06e43be12958146b4663fc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Jeffrey\.android\build-cache\f22f241199759347b99178e8d98b8474cc3d8cf7\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="4961be1437163ab598620a3c907c0f3432936f51">
         <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_64af7b5527c4461c922a9cd3c3b133066079a261\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jeffrey\.android\build-cache\7d76a11afb8e7e730b0d39fcb9dc30fd91cf78ca\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e04f28ac2dd9bbe48ced6fc87fedf46c2586f5d6">
+        <dex dex="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fe4af3d5ef4a9d8a0d06e43be12958146b4663fc\classes.dex" />
     </item>
     <item
         is-multidex="true"

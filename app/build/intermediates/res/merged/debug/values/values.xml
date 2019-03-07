@@ -917,6 +917,7 @@
     <string name="ap_zaxis_hint">z-axis coordinate</string>
     <string name="app_firmware">App Firmware</string>
     <string name="app_name">Decawave DRTLS Manager</string>
+    <string name="app_subtitle">Updated by Trilateration Nation</string>
     <string name="app_version">Version: %1$s</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="ble">BLE</string>
@@ -937,7 +938,7 @@
     <string name="btn_update">update</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="clear">Clear</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">3b410ae5-2623-4223-9499-20328064be8f</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">7c626f9d-d0c6-4a8c-82c3-14e9cf9e061f</string>
     <string name="copied_to_clipboard">copied</string>
     <string name="copy">To clipboard</string>
     <string name="crashlytics_not_configured">crashlytics not enabled in this build</string>
