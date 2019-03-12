@@ -6356,14 +6356,7 @@
                     "endOffset": 71142
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\Desktop\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 148,
-                        "endColumn": 71,
-                        "endOffset": 215
-                    }
+                    "file": "C:\\Users\\Jeffrey\\Desktop\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -6627,7 +6620,14 @@
                     "endOffset": 72602
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\Desktop\\Decawave_DWM1001_DRTLS_manager\\app\\build\\generated\\fabric\\res\\debug\\values\\com_crashlytics_build_id.xml"
+                    "file": "C:\\Users\\Jeffrey\\Desktop\\Decawave_DWM1001_DRTLS_manager\\app\\build\\generated\\fabric\\res\\debug\\values\\com_crashlytics_build_id.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 311,
+                        "endColumn": 162,
+                        "endOffset": 473
+                    }
                 }
             },
             {

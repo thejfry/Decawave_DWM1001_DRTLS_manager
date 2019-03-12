@@ -938,7 +938,7 @@
     <string name="btn_update">update</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="clear">Clear</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">7c626f9d-d0c6-4a8c-82c3-14e9cf9e061f</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">7854db85-ddf1-42da-b7b2-fc9b52dd24f4</string>
     <string name="copied_to_clipboard">copied</string>
     <string name="copy">To clipboard</string>
     <string name="crashlytics_not_configured">crashlytics not enabled in this build</string>
