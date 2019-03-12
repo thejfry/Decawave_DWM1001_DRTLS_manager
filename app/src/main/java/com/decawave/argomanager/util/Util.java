@@ -331,7 +331,7 @@ public class Util {
 
     public static void configureNoNetworkScreen(View rootView, AndroidPermissionHelper permissionHelper, MainActivity mainActivity) {
         //
-        ((TextView) rootView.findViewById(R.id.tvVersion)).setText(AbstractArgoFragment.daApp.getString(R.string.app_version, BuildConfig.VERSION_NAME));
+//        ((TextView) rootView.findViewById(R.id.tvVersion)).setText(AbstractArgoFragment.daApp.getString(R.string.app_version, BuildConfig.VERSION_NAME));
         rootView.findViewById(R.id.btnDiscover).setOnClickListener(
                 v -> {
                     // make sure that we got all the permissions
