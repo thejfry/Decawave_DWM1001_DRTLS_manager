@@ -916,7 +916,7 @@
     <string name="ap_preview">Positions Preview</string>
     <string name="ap_zaxis_hint">z-axis coordinate</string>
     <string name="app_firmware">App Firmware</string>
-    <string name="app_name">Trilateration Nation DRTLS Manager</string>
+    <string name="app_name">Trilateration Nation TNRTLS Manager</string>
     <string name="app_subtitle">Updated by Trilateration Nation</string>
     <string name="app_version">Version: %1$s</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
