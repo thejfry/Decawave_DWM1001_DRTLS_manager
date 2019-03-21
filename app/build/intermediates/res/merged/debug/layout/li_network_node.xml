@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              style="@style/NodeListItem"
+    >
+
+    <!-- Top space -->
+
+    <!-- either: -->
+    <View
+        android:id="@+id/cardTop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_top_shadow_height"
+        android:background="@drawable/card_top_shadow"/>
+    <!-- or: -->
+    <View
+        android:id="@+id/cardTopSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_top_shadow_height"
+        android:background="?attr/color_bottom_separator"/>
+
+    <LinearLayout
+        android:id="@+id/cardContent"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="?color_card_bg"
+        android:focusable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.decawave.argomanager.ui.view.NodeStateView
+                android:id="@+id/nodeType"
+                android:layout_width="24dp"
+                android:layout_marginStart="@dimen/activity_horizontal_margin_3_4"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin_3_4"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"/>
+
+            <!-- expand to where it is possible -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/nodeName"
+                    android:text="node name it's too long asdfas"
+                    style="@style/NodeTitleInOverview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"/>
+
+                <TextView
+                    android:id="@+id/bleAddress"
+                    android:text="node BLE address too"
+                    style="@style/NodeDetailsInNodeList"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/warningIcon"
+                android:layout_width="@dimen/network_node_icon_width"
+                android:padding="2dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="32sp"
+                android:textColor="@color/mtrl_primary"
+                android:textAlignment="center"
+                android:text="!"/>
+
+            <ImageView
+                android:id="@+id/locateIcon"
+                style="@style/actionIcon"
+                android:src="@drawable/ic_locate_icon"
+                android:contentDescription="@string/locate_action"
+                />
+
+            <ImageView
+                android:id="@+id/trackModeIcon"
+                style="@style/actionIcon"
+                android:src="@drawable/ic_location_with_ranging"
+                android:contentDescription="@string/track_mode_toggle"
+                />
+
+            <com.decawave.argomanager.ui.view.SignalStrengthView
+                android:id="@+id/signalStrength"
+                style="@style/signalIndicatorStyle"
+                android:layout_gravity="center_vertical"
+                />
+
+            <ImageView
+                android:id="@+id/editIcon"
+                style="@style/actionIcon"
+                android:src="@drawable/ic_mode_edit"
+                android:contentDescription="@string/edit_action"
+                />
+
+
+            <View
+                android:layout_width="@dimen/activity_horizontal_margin_1_4"
+                android:layout_height="1dp"/>
+
+        </LinearLayout>
+
+        <TableLayout
+            android:id="@+id/detailsTable"
+            android:paddingTop="@dimen/node_details_table_margin"
+            android:paddingBottom="@dimen/node_details_table_double_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+        </TableLayout>
+
+    </LinearLayout>
+
+    <!-- bottom separator -->
+    <View
+        android:id="@+id/bottomSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="bottom"
+        android:background="?attr/color_bottom_separator"/>
+
+    <!-- last card bottom -->
+    <View
+        android:id="@+id/lastNodeBottomSeparator"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/card_bottom_shadow_height"
+        android:background="@drawable/card_bottom_shadow"/>
+
+</LinearLayout>

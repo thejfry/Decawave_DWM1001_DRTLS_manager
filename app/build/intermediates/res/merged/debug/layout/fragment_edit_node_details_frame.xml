@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?color_drawer_bg"
+    >
+
+    <!-- content -->
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/contentFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <!-- Main view (placeholder) -->
+        <include layout="@layout/node_details"/>
+
+    </LinearLayout>
+
+    <!-- Progress view -->
+    <LinearLayout
+        android:id="@+id/progressFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/progress_fade_color"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <eu.kryl.android.common.ui.SbRotatingProgressView
+            style="@style/SbProgressNormal"/>
+
+    </LinearLayout>
+
+</FrameLayout>

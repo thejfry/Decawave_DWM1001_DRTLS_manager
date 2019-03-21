@@ -459,6 +459,7 @@ public class MainActivity extends AppCompatActivity
                     break;
                 case R.id.nav_jeffreys_tab:
                     Toast.makeText(this, "This is when you would end up in Jeffrey's Tab", Toast.LENGTH_SHORT).show();
+                    showFragment(FragmentType.SELECT_ANCHORS);
                     break;
                 case R.id.nav_position_log:
                     showFragment(FragmentType.POSITION_LOG);

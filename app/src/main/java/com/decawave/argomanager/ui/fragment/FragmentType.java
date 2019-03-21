@@ -78,7 +78,8 @@ public enum FragmentType {
         }
     }),
     AP_PREVIEW(R.string.ap_preview, ApPreviewFragment::new),
-    INSTRUCTIONS(R.string.screen_title_instructions, InstructionsFragment::new);
+    INSTRUCTIONS(R.string.screen_title_instructions, InstructionsFragment::new),
+    SELECT_ANCHORS(R.string.screen_title_jeffreys_tab, SelectAnchorsFragment::new);
 
     public final boolean mainScreen;
     public final boolean hasScreenTitle;
