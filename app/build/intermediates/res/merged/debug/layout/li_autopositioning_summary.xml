@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/NodeListItem"
+    >
+
+    <LinearLayout
+        android:id="@+id/cardContent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="9dp"
+        android:background="?color_card_bg"
+        android:gravity="center"
+        android:minHeight="96dp">
+
+        <TextView
+            android:id="@+id/tvLegend"
+            android:text="@string/ap_legend_distance_success_compute_success"
+            android:paddingTop="@dimen/activity_horizontal_margin_1_4"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            style="@style/NodeTitleInNodeList"
+            android:lineSpacingMultiplier="1.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:id="@+id/actionButtonContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="end">
+
+            <Button
+                android:id="@+id/btnPreview"
+                android:layout_gravity="bottom|end"
+                style="@style/MtrlBorderlessButton"
+                android:text="@string/ap_btn_preview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <Button
+                android:id="@+id/btnSetupZaxis"
+                android:layout_gravity="bottom|end"
+                style="@style/MtrlBorderlessButton"
+                android:text="@string/ap_btn_setup_zaxis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvAutoPosNodes"
+        android:text="ORDERED NODES"
+        android:background="@color/color_section_title_bg"
+        style="@style/SectionTitle"/>
+
+</LinearLayout>

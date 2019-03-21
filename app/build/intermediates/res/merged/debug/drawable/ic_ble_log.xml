@@ -1,0 +1,10 @@
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<vector android:height="26dp" android:viewportHeight="13.000004"
+    android:viewportWidth="14.0" android:width="28dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#4F4F4F" android:pathData="m4.014,-0.004c-2.051,0 -3.687,1.883 -3.687,4.227v1.716c0,2.344 1.636,4.227 3.687,4.227h1.335l-0.318,2.829 6.039,-3.02c1.509,-0.534 2.606,-2.132 2.606,-4.037v-1.716c0,-2.344 -1.636,-4.227 -3.687,-4.227h-5.976zM2.488,2.634h8.455c0.189,0 0.318,0.333 0.318,0.731s-0.129,0.699 -0.318,0.699h-8.455c-0.189,0 -0.35,-0.301 -0.35,-0.699s0.161,-0.731 0.35,-0.731zM2.488,5.431h8.455c0.189,0 0.318,0.333 0.318,0.731s-0.129,0.699 -0.318,0.699h-8.455c-0.189,0 -0.35,-0.301 -0.35,-0.699s0.161,-0.731 0.35,-0.731z"/>
+</vector>

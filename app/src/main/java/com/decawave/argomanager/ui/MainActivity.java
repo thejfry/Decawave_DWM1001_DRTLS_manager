@@ -87,6 +87,7 @@ import static com.decawave.argomanager.ArgoApp.daApp;
 import static com.decawave.argomanager.ArgoApp.uiHandler;
 import static com.decawave.argomanager.ioc.IocContext.daCtx;
 
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, IhAppPreferenceListener,
         AbstractArgoFragment.OnFragmentSwitchedListener {
@@ -455,6 +456,9 @@ public class MainActivity extends AppCompatActivity
                     // determine the appropriate fragment to show
                     DevelopmentToolsSpinnerItem devSpinnerItem = DevelopmentToolsSpinnerItem.values()[appPreferenceAccessor.getLastSelectedDevelopmentToolsSpinnerItemPos()];
                     showFragment(devSpinnerItem.getFragmentType());
+                    break;
+                case R.id.nav_jeffreys_tab:
+                    Toast.makeText(this, "This is when you would end up in Jeffrey's Tab", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.nav_position_log:
                     showFragment(FragmentType.POSITION_LOG);
