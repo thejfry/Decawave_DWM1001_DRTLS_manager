@@ -18,6 +18,7 @@ import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -208,6 +209,9 @@ public class NodeDetailFragment extends AbstractArgoFragment implements NetworkP
 
     @BindViews({ R.id.updateRateContainer, R.id.chboxAccelerometer, R.id.chboxResponsiveMode, R.id.chboxLocationEngine })
     List<View> tagSpecificViews;
+
+    @BindView(R.id.btn_set_anchor_coords)
+    Button btnSetAnchorCoords;
 
     //
     private boolean fillUi = false;
@@ -510,6 +514,11 @@ public class NodeDetailFragment extends AbstractArgoFragment implements NetworkP
         adjustNodeTypeSpecificViews();
         configureNodeNameEditText();
         //
+        btnSetAnchorCoords.setOnClickListener(
+            view -> {
+                getMainActivity().showFragment(FragmentType.SELECT_ANCHORS);
+            }
+        );
         return v;
     }
 

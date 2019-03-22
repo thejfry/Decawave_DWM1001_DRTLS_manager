@@ -31,11 +31,11 @@
             android:title="@string/navigation_development_tools" />
 
          <item
-            android:id="@+id/nav_jeffreys_tab"
+            android:id="@+id/nav_anchor_selection"
             android:icon="@drawable/ic_development_tools"
             android:checkable="false"
             android:orderInCategory="9300"
-            android:title="@string/screen_title_jeffreys_tab" />
+            android:title="@string/screen_title_select_anchors" />
 
     </group>
 

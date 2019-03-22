@@ -457,8 +457,7 @@ public class MainActivity extends AppCompatActivity
                     DevelopmentToolsSpinnerItem devSpinnerItem = DevelopmentToolsSpinnerItem.values()[appPreferenceAccessor.getLastSelectedDevelopmentToolsSpinnerItemPos()];
                     showFragment(devSpinnerItem.getFragmentType());
                     break;
-                case R.id.nav_jeffreys_tab:
-                    Toast.makeText(this, "This is when you would end up in Jeffrey's Tab", Toast.LENGTH_SHORT).show();
+                case R.id.nav_anchor_selection:
                     showFragment(FragmentType.SELECT_ANCHORS);
                     break;
                 case R.id.nav_position_log:

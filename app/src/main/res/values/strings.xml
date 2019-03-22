@@ -45,6 +45,9 @@
     <string name="screen_title_settings">Settings</string>
     <string name="screen_title_instructions">Instructions</string>
     <string name="screen_title_jeffreys_tab">Jeffrey\'s Tab</string>
+    <string name="screen_title_select_anchors">Select Anchors</string>
+    <string name="screen_title_set_coordinates">Set Coordinates</string>
+
 
     <string name="no_network">No network</string>
     <string name="no_configured_network">No saved network</string>

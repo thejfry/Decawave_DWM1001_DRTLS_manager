@@ -317,7 +317,16 @@
 
             </android.support.design.widget.TextInputLayout>
 
+            <Button
+                android:id="@+id/btn_set_anchor_coords"
+                style="@style/MtrlBorderlessButton"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/screen_title_set_coordinates" />
+
         </LinearLayout>
+
 
     </LinearLayout>
 

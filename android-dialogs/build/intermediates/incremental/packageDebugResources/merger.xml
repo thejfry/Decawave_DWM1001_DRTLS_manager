@@ -36,7 +36,9 @@
         <item name="android:minWidth">64dp</item>
         <item name="android:paddingLeft">8dp</item>
         <item name="android:paddingRight">8dp</item>
-        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:background">@color/dialog_bg_dark</item>
+        <item name="android:bottomLeftRadius">50dp</item>
+        
     </style><style name="MtrlDialogTheme.Light" parent="MtrlDialogThemeBase">
         <item name="android:windowBackground">@drawable/dialog_full_holo_light</item>
         <item name="dialogTitleFgColor">@color/primary_text_default_material_light</item>

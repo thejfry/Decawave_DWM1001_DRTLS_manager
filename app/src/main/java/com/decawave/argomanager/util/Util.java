@@ -340,6 +340,12 @@ public class Util {
                         InterfaceHub.getHandlerHub(IhMainActivityProvider.class, InterfaceHubContract.Delivery.RELIABLE).provideMainActivity((m) -> m.showFragment(FragmentType.DISCOVERY));
                     });
                 });
+        rootView.findViewById(R.id.btnSelectAnchors).setOnClickListener(
+                view -> {
+                    // show anchor selection screen
+                    mainActivity.showFragment(FragmentType.SELECT_ANCHORS);
+                }
+        );
         rootView.findViewById(R.id.btnInstructions).setOnClickListener(
                 v -> {
                     // show instructions screen
