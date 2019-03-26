@@ -1,0 +1,546 @@
+[
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\li_discovery_section_title.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\li_discovery_section_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\li_network_node_table_row.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\li_network_node_table_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\7b2858baf08362c363b342ccbfb0fd577f98b594\\output\\res\\layout\\md_listitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\li_dlg_new_network.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\li_dlg_new_network.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_custom.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\7b2858baf08362c363b342ccbfb0fd577f98b594\\output\\res\\layout\\md_dialog_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\floor_plan_et.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\floor_plan_et.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\instructions.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\instructions.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_input.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\7b2858baf08362c363b342ccbfb0fd577f98b594\\output\\res\\layout\\md_dialog_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_recyclerview.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\android-dialogs\\build\\intermediates\\bundles\\debug\\res\\layout\\dlg_recyclerview.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\android-dialogs\\build\\intermediates\\bundles\\debug\\res\\layout\\alert_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\cb2e0e8d741a6fae9ab43a2a062c7ec440c5d12d\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pref_checkbox_preference_item.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\pref_checkbox_preference_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_zaxis.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\dlg_zaxis.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ab_spinner_popup_item.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\ab_spinner_popup_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\cb2e0e8d741a6fae9ab43a2a062c7ec440c5d12d\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\cb2e0e8d741a6fae9ab43a2a062c7ec440c5d12d\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\li_network_new_nodes_discovered.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\li_network_new_nodes_discovered.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_errors_list.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\device_errors_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_enable_location_service.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\dlg_enable_location_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\generic_log_fragment.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\generic_log_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\cb2e0e8d741a6fae9ab43a2a062c7ec440c5d12d\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sticky_header_layout.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\1f94a05b6b91cd5d8fd3a272aab691c098c906a1\\output\\res\\layout\\sticky_header_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\li_dlg_update_rate_picker.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\li_dlg_update_rate_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\node_discovery.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\node_discovery.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\li_declared_network.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\li_declared_network.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_empty_prefs.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\fragment_empty_prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_custom_example_layout.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\android-dialogs\\build\\intermediates\\bundles\\debug\\res\\layout\\dlg_custom_example_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\autopos_snackbar.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\autopos_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\li_firmware_summary.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\li_firmware_summary.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\cb2e0e8d741a6fae9ab43a2a062c7ec440c5d12d\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_input_check.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\7b2858baf08362c363b342ccbfb0fd577f98b594\\output\\res\\layout\\md_dialog_input_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\cb2e0e8d741a6fae9ab43a2a062c7ec440c5d12d\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\li_firmware_node_item.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\li_firmware_node_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem_multichoice.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\7b2858baf08362c363b342ccbfb0fd577f98b594\\output\\res\\layout\\md_listitem_multichoice.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\cb2e0e8d741a6fae9ab43a2a062c7ec440c5d12d\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\7b2858baf08362c363b342ccbfb0fd577f98b594\\output\\res\\layout\\md_dialog_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_actionbuttons.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\7b2858baf08362c363b342ccbfb0fd577f98b594\\output\\res\\layout\\md_stub_actionbuttons.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_basic.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\7b2858baf08362c363b342ccbfb0fd577f98b594\\output\\res\\layout\\md_dialog_basic.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_basic_check.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\7b2858baf08362c363b342ccbfb0fd577f98b594\\output\\res\\layout\\md_dialog_basic_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\auto_positioning.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\auto_positioning.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\no_network.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\no_network.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_grid.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\fragment_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\li_device_errors.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\li_device_errors.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\cb2e0e8d741a6fae9ab43a2a062c7ec440c5d12d\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\li_autopositioning_summary.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\li_autopositioning_summary.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\li_discovered_network_generic.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\li_discovered_network_generic.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\cb2e0e8d741a6fae9ab43a2a062c7ec440c5d12d\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\cb2e0e8d741a6fae9ab43a2a062c7ec440c5d12d\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\overview.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\overview.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\li_network_node.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\li_network_node.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_single_choice_sans_button.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\android-dialogs\\build\\intermediates\\bundles\\debug\\res\\layout\\list_single_choice_sans_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\flipview_rear.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\527232bccacc3ef52e43f04682352085705ca64a\\output\\res\\layout\\flipview_rear.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\cb2e0e8d741a6fae9ab43a2a062c7ec440c5d12d\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_list.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\7b2858baf08362c363b342ccbfb0fd577f98b594\\output\\res\\layout\\md_dialog_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\error_log_entry.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\error_log_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_popup_window.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\simple_popup_window.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\cb2e0e8d741a6fae9ab43a2a062c7ec440c5d12d\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_edit_node_details_frame.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\fragment_edit_node_details_frame.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\floor_plan_controls.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\floor_plan_controls.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\cb2e0e8d741a6fae9ab43a2a062c7ec440c5d12d\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ap_preview.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\fragment_ap_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\firmware_update.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\firmware_update.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_multiple_choice.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\android-dialogs\\build\\intermediates\\bundles\\debug\\res\\layout\\list_multiple_choice.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem_singlechoice.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\7b2858baf08362c363b342ccbfb0fd577f98b594\\output\\res\\layout\\md_listitem_singlechoice.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\flipview_front.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\527232bccacc3ef52e43f04682352085705ca64a\\output\\res\\layout\\flipview_front.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pref_preference_group.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\pref_preference_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\li_network_summary.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\li_network_summary.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_rename_network.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\dlg_rename_network.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\node_details.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\node_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\li_discovered_node.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\li_discovered_node.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\li_discovery_info.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\li_discovery_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_custom_button.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\android-dialogs\\build\\intermediates\\bundles\\debug\\res\\layout\\dlg_custom_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\log_message_warning_entry.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\log_message_warning_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_item_picker.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\dlg_item_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pref_preference_item.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\pref_preference_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\footer_buttonbar.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\footer_buttonbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pref_dlg_edit_text.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\pref_dlg_edit_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\log_message_info_entry.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\log_message_info_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\cb2e0e8d741a6fae9ab43a2a062c7ec440c5d12d\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\li_autopositioning_node_item.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\li_autopositioning_node_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar_indeterminate_progress.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\actionbar_indeterminate_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ab_spinner_anchor.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\ab_spinner_anchor.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\log_message_error_entry.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\log_message_error_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\li_dlg_network_picker.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\li_dlg_network_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_titleframe_lesspadding.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\7b2858baf08362c363b342ccbfb0fd577f98b594\\output\\res\\layout\\md_stub_titleframe_lesspadding.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress_indeterminate.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\7b2858baf08362c363b342ccbfb0fd577f98b594\\output\\res\\layout\\md_dialog_progress_indeterminate.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\li_discovered_network.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\li_discovered_network.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_debug_console_fragment.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\device_debug_console_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_single_choice_with_button.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\android-dialogs\\build\\intermediates\\bundles\\debug\\res\\layout\\list_single_choice_with_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_titleframe.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\7b2858baf08362c363b342ccbfb0fd577f98b594\\output\\res\\layout\\md_stub_titleframe.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\log_message_info_bold_entry.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\log_message_info_bold_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress_indeterminate_horizontal.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\7b2858baf08362c363b342ccbfb0fd577f98b594\\output\\res\\layout\\md_dialog_progress_indeterminate_horizontal.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_about_us_tab.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\fragment_about_us_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\library_fast_scroller_layout.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\1f94a05b6b91cd5d8fd3a272aab691c098c906a1\\output\\res\\layout\\library_fast_scroller_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pref_custom_preference_item.xml",
+        "source": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\src\\main\\res\\layout\\pref_custom_preference_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_list_check.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\7b2858baf08362c363b342ccbfb0fd577f98b594\\output\\res\\layout\\md_dialog_list_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\de3f4a88885e22c7bf705222107b77356d1e9d7b\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    }
+]

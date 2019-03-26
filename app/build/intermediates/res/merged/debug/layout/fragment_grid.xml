@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="UnusedAttribute">
+
+    <com.decawave.argomanager.ui.view.GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <!-- floorplan adjustment button/icon controls -->
+    <include layout="@layout/floor_plan_controls"
+             android:id="@+id/floorPlanControls"
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:layout_gravity="end"
+             android:visibility="gone"/>
+
+    <!-- floorplan adjustment text controls -->
+    <include layout="@layout/floor_plan_et"
+        android:id="@+id/floorPlanEts"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:visibility="gone"/>
+
+    <!-- just some eye candy -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/grid_bottom_shadow_height"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/grid_bottom_shadow"/>
+
+    <include layout="@layout/no_network"/>
+
+</FrameLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+    >
+
+    <!-- Left, Right margins 20dp + 4dp default drawable inset -->
+
+    <TextView
+        style="@style/RobotoRegular"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:textColor="?color_fg"
+        android:textSize="@dimen/abc_text_size_menu_material"
+        android:text="Please turn on location service first in order to get scan results."/>
+
+</LinearLayout>

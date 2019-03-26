@@ -76,7 +76,7 @@ android {
         }
     }
     lintOptions {
-          abortOnError false
+        abortOnError false
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -90,12 +90,12 @@ def butterknife_version = "8.5.1"
 dependencies {
     compile project(path: ':argo-api')
     // android-commons
+    compile 'com.android.support:support-v4:24.2.1'
     releaseCompile project(path: ':android-commons', configuration: 'release')
     debugCompile project(path: ':android-commons', configuration: 'debug')
     // android-dialogs
     releaseCompile project(path: ':android-dialogs', configuration: 'release')
     debugCompile project(path: ':android-dialogs', configuration: 'debug')
-
     compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
@@ -131,4 +131,5 @@ dependencies {
     testCompile 'org.mockito:mockito-core:2.7.22'
     // multidex
     compile 'com.android.support:multidex:1.0.1'
+    compile files('libs/jama-1.0.3.jar')
 }

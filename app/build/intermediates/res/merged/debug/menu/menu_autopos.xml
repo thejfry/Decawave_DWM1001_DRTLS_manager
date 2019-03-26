@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Progress -->
+    <item
+        android:id="@+id/action_progress"
+        android:orderInCategory="80"
+        android:title=""
+        app:showAsAction="always"/>
+
+    <!-- Instructions -->
+    <item
+        android:id="@+id/action_instructions"
+        android:orderInCategory="85"
+        android:title="@string/screen_title_instructions"
+        android:icon="@drawable/ic_help_white"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_show_errors"
+        android:orderInCategory="90"
+        android:title="@string/menu_show_errors"
+        android:icon="@drawable/ic_exclamation_sign"
+        app:showAsAction="ifRoom"/>
+
+</menu>

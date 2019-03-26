@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/NodeListItem"
+    >
+
+    <!-- Top space -->
+    <View
+        android:id="@+id/cardTop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_top_shadow_height"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/card_top_shadow"/>
+
+
+    <LinearLayout
+        android:id="@+id/cardContent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="?color_card_bg"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/networkName"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="network name"
+            style="@style/BigCardTitle"
+            android:maxLines="1"
+            android:ellipsize="end"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/infoNetworkId"
+            android:text="network id: ABCD-1234"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            style="@style/NodeDetailsInNodeList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            >
+
+            <com.decawave.argomanager.ui.view.NodeStateView
+                android:id="@+id/anchorPictogram"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginBottom="-6.5dp"
+                android:layout_marginTop="-5.5dp"
+                android:layout_marginStart="-6dp"
+                android:layout_marginEnd="2dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/infoNumberOfAnchors"
+                android:text="4 anchors"
+                style="@style/NodeDetailsInNodeList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            >
+
+            <com.decawave.argomanager.ui.view.NodeStateView
+                android:id="@+id/tagPictogram"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginBottom="-6.5dp"
+                android:layout_marginTop="-5.5dp"
+                android:layout_marginStart="-6dp"
+                android:layout_marginEnd="2dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/infoNumberOfTags"
+                android:text="2 tags"
+                style="@style/NodeDetailsInNodeList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- card bottom -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_bottom_shadow_height"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/card_bottom_shadow"/>
+
+</LinearLayout>

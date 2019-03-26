@@ -18,6 +18,7 @@ import com.decawave.argo.api.interaction.NetworkNodeConnection;
 import com.decawave.argo.api.interaction.ProxyPosition;
 import com.decawave.argo.api.struct.ConnectPriority;
 import com.decawave.argo.api.struct.NetworkNode;
+import com.decawave.argo.api.struct.Position;
 import com.decawave.argo.api.struct.RangingAnchor;
 import com.decawave.argo.api.struct.TagNode;
 import com.decawave.argomanager.ArgoApp;
@@ -43,6 +44,7 @@ import com.google.common.base.Preconditions;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -51,11 +53,18 @@ import java.util.Set;
 
 import javax.inject.Inject;
 
+import Jama.Matrix;
 import eu.kryl.android.common.hub.InterfaceHub;
 import eu.kryl.android.common.log.ComponentLog;
 import rx.functions.Action0;
 import rx.functions.Action1;
 import rx.functions.Action2;
+
+import static com.decawave.argo.api.struct.NetworkNodeProperty.ANCHOR_POSITION;
+import static java.lang.Math.abs;
+import static java.lang.Math.pow;
+import static java.lang.Math.round;
+import static java.lang.Math.sqrt;
 
 /**
  * Android BLE connection API implementation.
@@ -136,10 +145,63 @@ public class BleConnectionApiImpl implements BleConnectionApi {
                 // propagate to manager
                 Long nodeId = networkNodeManager.bleToId(bleAddress);
                 if (nodeId != null) {
-                    // let the network node manager know
+                    // -----------------------------------------------------------------------------
+                    //Start TNRTLS Positioning Algorithm
+
+                    //replace locationData with least squares position
+                    List<NetworkNodeEnhanced> anchors = new ArrayList<NetworkNodeEnhanced>();
+
+                    for (int i=0;i<locationData.distances.size();i++)
+                    {
+                        anchors.add(networkNodeManager.getNodeByShortId(locationData.distances.get(i).nodeId));
+                    }
+
+                    //Least Squares Implementation
+                    int z=1150;//Fix height
+                    int n=locationData.distances.size();
+                    double x0=locationData.position.x;
+                    double y0=locationData.position.y;
+                    double dist;
+
+                    Matrix A=new Matrix(n,2);
+                    Matrix w=new Matrix(n,1);
+                    Matrix d=new Matrix(2,1);
+
+                    d.set(0,0,2);
+                    d.set(1,0,2);
+
+                    while(abs(d.get(0,0))>1&&abs(d.get(1,0))>1)
+                    {
+                        for (int i = 0; i < n; i++) {
+                            Position anch = anchors.get(i).asPlainNode().getProperty(ANCHOR_POSITION);
+                            dist = sqrt(pow(x0 - anch.x, 2) + pow(y0 - anch.y, 2) + pow(z - anch.z, 2));
+                            A.set(i, 0, (x0 - anch.x) / dist);
+                            A.set(i, 1, (y0 - anch.y) / dist);
+                            w.set(i, 0, dist - locationData.distances.get(i).distance.length);
+                        }
+
+                        d=(A.transpose().times(A)).inverse().times(A.transpose().times(w)).times(-1.0);
+
+                        x0 = x0 + d.get(0, 0);
+                        y0 = y0 + d.get(1, 0);
+
+                    }
+                    //END OF Least Squares Implementation
+
+
+                    locationData.position.x = (int) round(x0);
+                    locationData.position.y = (int) round(y0);
+                    locationData.position.z = z;
+                    //End TNRTLS Positioning Algorithm
+                    // -----------------------------------------------------------------------------
+
+                    // let the network node manager know - Update position with TNRTLS
                     networkNodeManager.updateTagLocationData(nodeId, locationData);
                     // log the received location data
                     locationDataLogger.logLocationData(nodeId, bleAddress, locationData.position, locationData.distances, false);
+
+
+
                 }
             }
 
