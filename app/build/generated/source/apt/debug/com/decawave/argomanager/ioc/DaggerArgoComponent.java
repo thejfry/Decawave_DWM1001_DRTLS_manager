@@ -65,6 +65,8 @@ import com.decawave.argomanager.ui.dialog.RenameNetworkDialogFragment_MembersInj
 import com.decawave.argomanager.ui.dialog.TurnOnLocationServiceDialogFragment;
 import com.decawave.argomanager.ui.dialog.TurnOnLocationServiceDialogFragment_MembersInjector;
 import com.decawave.argomanager.ui.dialog.ZaxisValueDialogFragment;
+import com.decawave.argomanager.ui.fragment.AboutUsTab;
+import com.decawave.argomanager.ui.fragment.AboutUsTab_MembersInjector;
 import com.decawave.argomanager.ui.fragment.ApPreviewFragment;
 import com.decawave.argomanager.ui.fragment.ApPreviewFragment_MembersInjector;
 import com.decawave.argomanager.ui.fragment.AutoPositioningFragment;
@@ -223,6 +225,8 @@ public final class DaggerArgoComponent implements ArgoComponent {
   private MembersInjector<ApPreviewFragment> apPreviewFragmentMembersInjector;
 
   private MembersInjector<InstructionsFragment> instructionsFragmentMembersInjector;
+
+  private MembersInjector<AboutUsTab> aboutUsTabMembersInjector;
 
   private DaggerArgoComponent(Builder builder) {
     assert builder != null;
@@ -503,6 +507,9 @@ public final class DaggerArgoComponent implements ArgoComponent {
 
     this.instructionsFragmentMembersInjector =
         InstructionsFragment_MembersInjector.create(provideAppPreferenceAccessorProvider);
+
+    this.aboutUsTabMembersInjector =
+        AboutUsTab_MembersInjector.create(provideAppPreferenceAccessorProvider);
   }
 
   @Override
@@ -603,6 +610,11 @@ public final class DaggerArgoComponent implements ArgoComponent {
   @Override
   public void inject(InstructionsFragment instructionsFragment) {
     instructionsFragmentMembersInjector.injectMembers(instructionsFragment);
+  }
+
+  @Override
+  public void inject(AboutUsTab aboutUsTab) {
+    aboutUsTabMembersInjector.injectMembers(aboutUsTab);
   }
 
   @Override

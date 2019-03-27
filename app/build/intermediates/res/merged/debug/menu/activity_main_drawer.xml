@@ -31,7 +31,7 @@
             android:title="@string/navigation_development_tools" />
 
          <item
-            android:id="@+id/nav_jeffreys_tab"
+            android:id="@+id/nav_AboutUs_tab"
             android:icon="@drawable/tn_logo"
             android:checkable="false"
             android:orderInCategory="9300"

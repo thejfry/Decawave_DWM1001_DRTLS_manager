@@ -10,6 +10,10 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.decawave.argomanager.R;
+import com.decawave.argomanager.ioc.ArgoComponent;
+import com.decawave.argomanager.prefs.AppPreferenceAccessor;
+
+import javax.inject.Inject;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -19,8 +23,20 @@ import com.decawave.argomanager.R;
  * Use the {@link AboutUsTab#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class AboutUsTab extends Fragment {
+public class AboutUsTab extends AbstractArgoFragment {
 
+    // dependencies
+    @Inject
+    AppPreferenceAccessor appPreferenceAccessor;
+
+    public AboutUsTab() {
+        super(FragmentType.ABOUT_US);
+    }
+
+    @Override
+    protected void injectFrom(ArgoComponent injector) {
+        injector.inject(this);
+    }
 
     @Nullable
     @Override

@@ -45,6 +45,7 @@
     <string name="screen_title_settings">Settings</string>
     <string name="screen_title_instructions">Instructions</string>
     <string name="screen_title_about_tab">About Us</string>
+    <string name="about_tab">About Us</string>
 
     <string name="no_network">No network</string>
     <string name="no_configured_network">No saved network</string>

@@ -18,6 +18,7 @@ import com.decawave.argomanager.ui.dialog.NetworkPickerDialogFragment;
 import com.decawave.argomanager.ui.dialog.RenameNetworkDialogFragment;
 import com.decawave.argomanager.ui.dialog.TurnOnLocationServiceDialogFragment;
 import com.decawave.argomanager.ui.dialog.ZaxisValueDialogFragment;
+import com.decawave.argomanager.ui.fragment.AboutUsTab;
 import com.decawave.argomanager.ui.fragment.ApPreviewFragment;
 import com.decawave.argomanager.ui.fragment.AutoPositioningFragment;
 import com.decawave.argomanager.ui.fragment.DebugLogBufferFragment;
@@ -86,6 +87,8 @@ public interface ArgoComponent {
     void inject(ApPreviewFragment apPreviewFragment);
 
     void inject(InstructionsFragment instructionsFragment);
+
+    void inject(AboutUsTab aboutUsTab);
 
     UniqueReorderingStack<Short> getActiveNetworkIdStack();
 
