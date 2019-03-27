@@ -15,14 +15,7 @@ import com.decawave.argomanager.prefs.AppPreferenceAccessor;
 
 import javax.inject.Inject;
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link AboutUsTab.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link AboutUsTab#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class AboutUsTab extends AbstractArgoFragment {
 
     // dependencies

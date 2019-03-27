@@ -2336,6 +2336,8 @@ containing a value of this type.
         public static int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f070083;
         public static int Base_Widget_AppCompat_Toolbar=0x7f0700d5;
         public static int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f070084;
+        /** <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+         */
         public static int MtrlBorderlessButton=0x7f0700d6;
         public static int MtrlDialogMessageTextAppearance=0x7f0700d7;
         public static int MtrlDialogTheme_Dark=0x7f0700d8;
