@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:support-compat-25.1.0">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.android/build-cache/867ec8afb1f0469de2241b0f153148dfefdc0d34/output/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/917e2ed33a2469110f25edd6663bc1aa3a702d30/output/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/867ec8afb1f0469de2241b0f153148dfefdc0d34/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/867ec8afb1f0469de2241b0f153148dfefdc0d34/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/917e2ed33a2469110f25edd6663bc1aa3a702d30/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/917e2ed33a2469110f25edd6663bc1aa3a702d30/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/support-compat/25.1.0/support-compat-25.1.0-javadoc.jar!/" />

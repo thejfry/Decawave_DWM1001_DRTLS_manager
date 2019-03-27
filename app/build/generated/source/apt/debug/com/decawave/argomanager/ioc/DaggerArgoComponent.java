@@ -91,6 +91,8 @@ import com.decawave.argomanager.ui.fragment.NodeDetailFragment;
 import com.decawave.argomanager.ui.fragment.NodeDetailFragment_MembersInjector;
 import com.decawave.argomanager.ui.fragment.OverviewFragment;
 import com.decawave.argomanager.ui.fragment.OverviewFragment_MembersInjector;
+import com.decawave.argomanager.ui.fragment.SelectAnchorsFragment;
+import com.decawave.argomanager.ui.fragment.SelectAnchorsFragment_MembersInjector;
 import com.decawave.argomanager.ui.fragment.SettingsFragment;
 import com.decawave.argomanager.ui.fragment.SettingsFragment_MembersInjector;
 import com.decawave.argomanager.util.AndroidPermissionHelper;
@@ -227,6 +229,8 @@ public final class DaggerArgoComponent implements ArgoComponent {
   private MembersInjector<InstructionsFragment> instructionsFragmentMembersInjector;
 
   private MembersInjector<AboutUsTab> aboutUsTabMembersInjector;
+
+  private MembersInjector<SelectAnchorsFragment> selectAnchorsFragmentMembersInjector;
 
   private DaggerArgoComponent(Builder builder) {
     assert builder != null;
@@ -510,6 +514,9 @@ public final class DaggerArgoComponent implements ArgoComponent {
 
     this.aboutUsTabMembersInjector =
         AboutUsTab_MembersInjector.create(provideAppPreferenceAccessorProvider);
+
+    this.selectAnchorsFragmentMembersInjector =
+        SelectAnchorsFragment_MembersInjector.create(provideAppPreferenceAccessorProvider);
   }
 
   @Override
@@ -615,6 +622,11 @@ public final class DaggerArgoComponent implements ArgoComponent {
   @Override
   public void inject(AboutUsTab aboutUsTab) {
     aboutUsTabMembersInjector.injectMembers(aboutUsTab);
+  }
+
+  @Override
+  public void inject(SelectAnchorsFragment selectAnchorsFragment) {
+    selectAnchorsFragmentMembersInjector.injectMembers(selectAnchorsFragment);
   }
 
   @Override

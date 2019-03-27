@@ -45,6 +45,8 @@
     <string name="screen_title_settings">Settings</string>
     <string name="screen_title_instructions">Instructions</string>
     <string name="screen_title_about_tab">About Us</string>
+    <string name="screen_title_select_anchor">Select Anchor</string>
+    <string name="screen_title_set_coordinates">Set Coordinates</string>
     <string name="about_tab">About Us</string>
 
     <string name="no_network">No network</string>

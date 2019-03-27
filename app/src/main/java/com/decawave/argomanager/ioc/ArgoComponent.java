@@ -31,6 +31,7 @@ import com.decawave.argomanager.ui.fragment.InstructionsFragment;
 import com.decawave.argomanager.ui.fragment.LogBufferFragment;
 import com.decawave.argomanager.ui.fragment.NodeDetailFragment;
 import com.decawave.argomanager.ui.fragment.OverviewFragment;
+import com.decawave.argomanager.ui.fragment.SelectAnchorsFragment;
 import com.decawave.argomanager.ui.fragment.SettingsFragment;
 import com.decawave.argomanager.util.AndroidPermissionHelper;
 import com.decawave.argomanager.util.gatt.GattDecoderCache;
@@ -89,6 +90,8 @@ public interface ArgoComponent {
     void inject(InstructionsFragment instructionsFragment);
 
     void inject(AboutUsTab aboutUsTab);
+
+    void inject(SelectAnchorsFragment selectAnchorsFragment);
 
     UniqueReorderingStack<Short> getActiveNetworkIdStack();
 

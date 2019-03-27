@@ -16,9 +16,9 @@ import java.lang.Override;
 public class AutoPositioningNodeListAdapter$AutoPositioningSummaryItemHolder_ViewBinding implements Unbinder {
   private AutoPositioningNodeListAdapter.AutoPositioningSummaryItemHolder target;
 
-  private View view2131624139;
+  private View view2131624142;
 
-  private View view2131624140;
+  private View view2131624143;
 
   @UiThread
   public AutoPositioningNodeListAdapter$AutoPositioningSummaryItemHolder_ViewBinding(final AutoPositioningNodeListAdapter.AutoPositioningSummaryItemHolder target, View source) {
@@ -28,7 +28,7 @@ public class AutoPositioningNodeListAdapter$AutoPositioningSummaryItemHolder_Vie
     target.tvLegend = Utils.findRequiredViewAsType(source, R.id.tvLegend, "field 'tvLegend'", TextView.class);
     target.buttonContainer = Utils.findRequiredViewAsType(source, R.id.actionButtonContainer, "field 'buttonContainer'", LinearLayout.class);
     view = Utils.findRequiredView(source, R.id.btnPreview, "method 'onPreviewClicked'");
-    view2131624139 = view;
+    view2131624142 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -36,7 +36,7 @@ public class AutoPositioningNodeListAdapter$AutoPositioningSummaryItemHolder_Vie
       }
     });
     view = Utils.findRequiredView(source, R.id.btnSetupZaxis, "method 'onSetupZaxisClicked'");
-    view2131624140 = view;
+    view2131624143 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -55,9 +55,9 @@ public class AutoPositioningNodeListAdapter$AutoPositioningSummaryItemHolder_Vie
     target.tvLegend = null;
     target.buttonContainer = null;
 
-    view2131624139.setOnClickListener(null);
-    view2131624139 = null;
-    view2131624140.setOnClickListener(null);
-    view2131624140 = null;
+    view2131624142.setOnClickListener(null);
+    view2131624142 = null;
+    view2131624143.setOnClickListener(null);
+    view2131624143 = null;
   }
 }

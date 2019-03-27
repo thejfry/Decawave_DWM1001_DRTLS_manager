@@ -79,9 +79,8 @@ public enum FragmentType {
     }),
     AP_PREVIEW(R.string.ap_preview, ApPreviewFragment::new),
     INSTRUCTIONS(R.string.screen_title_instructions, InstructionsFragment::new),
-    ABOUT_US(R.string.about_tab, AboutUsTab::new);
-    //ABOUT_US(R.string.screen_title_instructions, AboutUsTab::new);
-
+    ABOUT_US(R.string.about_tab, AboutUsTab::new),
+    SELECT_ANCHOR(R.string.screen_title_select_anchor, SelectAnchorsFragment::new);
 
     public final boolean mainScreen;
     public final boolean hasScreenTitle;

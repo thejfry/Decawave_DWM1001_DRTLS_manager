@@ -4,6 +4,7 @@ package com.decawave.argomanager.ui.fragment;
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -17,15 +18,15 @@ import java.lang.Override;
 public class NodeDetailFragment_ViewBinding implements Unbinder {
   private NodeDetailFragment target;
 
-  private View view2131624221;
-
   private View view2131624224;
 
-  private View view2131624216;
+  private View view2131624227;
 
-  private View view2131624214;
+  private View view2131624219;
 
   private View view2131624217;
+
+  private View view2131624220;
 
   @UiThread
   public NodeDetailFragment_ViewBinding(final NodeDetailFragment target, View source) {
@@ -42,7 +43,7 @@ public class NodeDetailFragment_ViewBinding implements Unbinder {
     target.updateRateLabel = Utils.findRequiredView(source, R.id.updateRateLabel, "field 'updateRateLabel'");
     view = Utils.findRequiredView(source, R.id.updateRateSelector, "field 'updateRateSelector' and method 'onUpdateRateClicked'");
     target.updateRateSelector = view;
-    view2131624221 = view;
+    view2131624224 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -54,7 +55,7 @@ public class NodeDetailFragment_ViewBinding implements Unbinder {
     target.stationaryUpdateRateLabel = Utils.findRequiredView(source, R.id.stationaryUpdateRateLabel, "field 'stationaryUpdateRateLabel'");
     view = Utils.findRequiredView(source, R.id.stationaryUpdateRateSelector, "field 'stationaryUpdateRateSelector' and method 'onStationaryUpdateRateClicked'");
     target.stationaryUpdateRateSelector = view;
-    view2131624224 = view;
+    view2131624227 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -67,7 +68,7 @@ public class NodeDetailFragment_ViewBinding implements Unbinder {
     target.tvUwbMode = Utils.findRequiredViewAsType(source, R.id.tvUwbMode, "field 'tvUwbMode'", TextView.class);
     view = Utils.findRequiredView(source, R.id.networkNameSelector, "field 'networkViewGroup' and method 'onNetworkClicked'");
     target.networkViewGroup = view;
-    view2131624216 = view;
+    view2131624219 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -76,7 +77,7 @@ public class NodeDetailFragment_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.nodeTypeSelector, "field 'nodeTypeViewGroup' and method 'onNodeTypeClicked'");
     target.nodeTypeViewGroup = view;
-    view2131624214 = view;
+    view2131624217 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -85,7 +86,7 @@ public class NodeDetailFragment_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.uwbModeSelector, "field 'uwbModeViewGroup' and method 'onUwbModeClicked'");
     target.uwbModeViewGroup = view;
-    view2131624217 = view;
+    view2131624220 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -101,6 +102,7 @@ public class NodeDetailFragment_ViewBinding implements Unbinder {
     target.progressFrame = Utils.findRequiredView(source, R.id.progressFrame, "field 'progressFrame'");
     target.contentFrame = Utils.findRequiredView(source, R.id.contentFrame, "field 'contentFrame'");
     target.tvPositionTitle = Utils.findRequiredViewAsType(source, R.id.tvPositionTitle, "field 'tvPositionTitle'", TextView.class);
+    target.btnSetAnchorCoords = Utils.findRequiredViewAsType(source, R.id.btn_set_anchor_coords, "field 'btnSetAnchorCoords'", Button.class);
     target.anchorSpecificViews = Utils.listOf(
         Utils.findRequiredView(source, R.id.chboxInitiator, "field 'anchorSpecificViews'"), 
         Utils.findRequiredView(source, R.id.tvPositionTitle, "field 'anchorSpecificViews'"), 
@@ -148,18 +150,19 @@ public class NodeDetailFragment_ViewBinding implements Unbinder {
     target.progressFrame = null;
     target.contentFrame = null;
     target.tvPositionTitle = null;
+    target.btnSetAnchorCoords = null;
     target.anchorSpecificViews = null;
     target.tagSpecificViews = null;
 
-    view2131624221.setOnClickListener(null);
-    view2131624221 = null;
     view2131624224.setOnClickListener(null);
     view2131624224 = null;
-    view2131624216.setOnClickListener(null);
-    view2131624216 = null;
-    view2131624214.setOnClickListener(null);
-    view2131624214 = null;
+    view2131624227.setOnClickListener(null);
+    view2131624227 = null;
+    view2131624219.setOnClickListener(null);
+    view2131624219 = null;
     view2131624217.setOnClickListener(null);
     view2131624217 = null;
+    view2131624220.setOnClickListener(null);
+    view2131624220 = null;
   }
 }
