@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: eu.davidea:flexible-adapter-5.0.0-rc2">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.android/build-cache/6bdd91c9cadc89afee47ef1fe1a90753abbe9816/output/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/1f94a05b6b91cd5d8fd3a272aab691c098c906a1/output/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/6bdd91c9cadc89afee47ef1fe1a90753abbe9816/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/6bdd91c9cadc89afee47ef1fe1a90753abbe9816/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/1f94a05b6b91cd5d8fd3a272aab691c098c906a1/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/1f94a05b6b91cd5d8fd3a272aab691c098c906a1/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

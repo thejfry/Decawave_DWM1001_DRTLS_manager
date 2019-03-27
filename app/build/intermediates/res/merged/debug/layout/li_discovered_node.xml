@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+~ LEAPS - Low Energy Accurate Positioning System.
+~
+~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/cardContent"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="?color_card_bg"
+        style="@style/NodeListItem"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+        <eu.davidea.flipview.FlipView
+            android:id="@+id/nodeTypeView"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            app:animationDuration="170"
+            app:checked="false"
+            app:rearBackgroundColor="@color/mtrl_primary"
+            android:layout_gravity="center"/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
+                      android:layout_width="wrap_content"
+                      android:layout_gravity="start"
+                      android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/nodeName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="111E"
+                style="@style/NodeTitleInNodeList"
+                />
+
+            <TextView
+                android:id="@+id/nodeBleAddress"
+                android:text="BLE: EB:63:6C:16:18:B1"
+                style="@style/NodeDetailsInNodeList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/nodeId"
+                android:text="ID: 0xDECAA5A8C1630111E"
+                style="@style/NodeDetailsInNodeList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/failIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="36dp"
+            android:textColor="@color/mtrl_primary"
+            android:paddingEnd="@dimen/activity_horizontal_margin_half"
+            android:layout_gravity="bottom"
+            android:text="fail"
+            tools:ignore="RtlSymmetry" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/network_node_bottom_margin_half"/>
+
+    <!-- progress view -->
+    <com.decawave.argomanager.ui.view.SimpleProgressView
+        android:id="@+id/progressView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/network_node_bottom_margin_half"
+        android:layout_gravity="bottom"/>
+
+</LinearLayout>

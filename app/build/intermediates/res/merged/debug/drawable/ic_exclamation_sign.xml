@@ -1,0 +1,15 @@
+<!--
+  ~ LEAPS - Low Energy Accurate Positioning System.
+  ~
+  ~ Copyright (c) 2016-2017, LEAPS. All rights reserved.
+  -->
+
+<vector android:height="22dp" android:viewportHeight="1792.0"
+    android:viewportWidth="1792.0" android:width="22dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--path android:fillAlpha="1" android:fillColor="#bf1e2d"
+        android:pathData="M668.2,334.1h432.8v1169.4h-432.8z"
+        android:strokeAlpha="1" android:strokeColor="#00000000"/-->
+    <path android:fillAlpha="1" android:fillColor="#ffffff"
+        android:pathData="m889.5,148.6q209,0 385.5,103Q1451.5,354.6 1554.5,531.1 1657.5,707.6 1657.5,916.6 1657.5,1125.6 1554.5,1302.1 1451.5,1478.6 1275,1581.6 1098.5,1684.6 889.5,1684.6 680.5,1684.6 504,1581.6 327.5,1478.6 224.5,1302.1 121.5,1125.6 121.5,916.6 121.5,707.6 224.5,531.1 327.5,354.6 504,251.6 680.5,148.6 889.5,148.6zM1017.5,1395.6l0,-190q0,-14 -9,-23.5 -9,-9.5 -22,-9.5L794.5,1172.6q-13,0 -23,10 -10,10 -10,23L761.5,1395.6q0,13 10,23 10,10 23,10l192,0q13,0 22,-9.5 9,-9.5 9,-23.5zM1015.5,1051.6 L1033.5,430.6q0,-12 -10,-18 -10,-8 -24,-8L779.5,404.6q-14,0 -24,8 -10,6 -10,18l17,621q0,10 10,17.5 10,7.5 24,7.5l185,0q14,0 23.5,-7.5 9.5,-7.5 10.5,-17.5z"
+        android:strokeAlpha="1" android:strokeColor="#00000000"/>
+</vector>
