@@ -312,5 +312,6 @@
 
     <string name="snackbar_read_instructions">Instructions are available</string>
     <string name="snackbar_action_read">read</string>
+    <string name="btn_submit_anchor">Submit</string>
 
 </resources>

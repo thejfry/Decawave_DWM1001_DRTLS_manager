@@ -6,63 +6,39 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1553223804736"
+    timestamp="1553641557713"
     token="-6595934308464553251"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="31900" />
+        duration="17554" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="2727" />
+        duration="76" />
     <task
         name="verifier"
-        duration="436" />
+        duration="25" />
 
     <artifact
         location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
         location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
-    <artifact
-        location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\outputs\apk\app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1553207811582"
+        timestamp="1553637953030"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
@@ -71,16 +47,16 @@
             location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
@@ -94,47 +70,25 @@
         <artifact
             location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
-        <artifact
-            location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1553223804736"
+        timestamp="1553640292813"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1553641557713"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\Jeffrey\Desktop\Decawave_DWM1001_DRTLS_manager\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

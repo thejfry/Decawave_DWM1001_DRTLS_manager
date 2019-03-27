@@ -2,20 +2,27 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView"
+
+
+    <Button
+        android:id="@+id/btn_submit_anchor"
+        style="@style/MtrlBorderlessButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="Welcome to anchor selection" />
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/vSelectAnchorView"
+        android:layout_margin="5dp"
+        android:text="@string/btn_submit_anchor"
+        />
 
     <view
-        android:id="@+id/view"
+        android:id="@+id/vSelectAnchorView"
         class="com.decawave.argomanager.ui.view.MyCanvasView"
-        android:layout_width="330dp"
-        android:layout_height="482dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        />
 
 
 </RelativeLayout>

@@ -935,10 +935,11 @@
     <string name="btn_okay">okay</string>
     <string name="btn_rename">Rename</string>
     <string name="btn_settings">settings</string>
+    <string name="btn_submit_anchor">Submit</string>
     <string name="btn_update">update</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="clear">Clear</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">5257acee-2983-4cab-ae47-bc42cc280f89</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">4e753c5c-9494-4c6f-9f41-791ec8133a6c</string>
     <string name="copied_to_clipboard">copied</string>
     <string name="copy">To clipboard</string>
     <string name="crashlytics_not_configured">crashlytics not enabled in this build</string>

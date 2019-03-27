@@ -5,8 +5,7 @@ import android.os.Parcelable;
 
 public class Anchor implements Parcelable {
     private String name;
-    private float x;
-    private float y;
+    private double x, y, z;
 
     public Anchor() {
     }
@@ -15,31 +14,40 @@ public class Anchor implements Parcelable {
         return name;
     }
 
-    public float getAnchorX() {
+    public double getAnchorX() {
         return x;
     }
 
-    public float getAnchorY() {
+    public double getAnchorY() {
         return y;
+    }
+
+    public double getAnchorZ() {
+        return z;
     }
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setAnchorX(float x) {
+    public void setAnchorX(double x) {
         this.x = x;
     }
 
-    public void setAnchorY(float y) {
+    public void setAnchorY(double y) {
         this.y = y;
+    }
+
+    public void setAnchorZ(double z) {
+        this.z = z;
     }
 
 
     protected Anchor(Parcel in) {
         name = in.readString();
-        x = in.readFloat();
-        y = in.readFloat();
+        x = in.readDouble();
+        y = in.readDouble();
+        z = in.readDouble();
     }
 
     @Override
@@ -50,8 +58,9 @@ public class Anchor implements Parcelable {
     @Override
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(name);
-        dest.writeFloat(x);
-        dest.writeFloat(y);
+        dest.writeDouble(x);
+        dest.writeDouble(y);
+        dest.writeDouble(z);
     }
 
     @SuppressWarnings("unused")

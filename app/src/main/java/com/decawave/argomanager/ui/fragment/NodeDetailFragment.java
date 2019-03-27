@@ -12,6 +12,7 @@ import android.support.annotation.Nullable;
 import android.text.Editable;
 import android.text.InputFilter;
 import android.text.Spanned;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -98,6 +99,8 @@ public class NodeDetailFragment extends AbstractArgoFragment implements NetworkP
             updateNodeTask.cancel();
         }
     };
+
+    public static final String TAG = "TN_debug";
 
     // dependencies
     @Inject
@@ -516,6 +519,7 @@ public class NodeDetailFragment extends AbstractArgoFragment implements NetworkP
         //
         btnSetAnchorCoords.setOnClickListener(
             view -> {
+                Log.i(TAG, "Going to anchor selection");
                 getMainActivity().showFragment(FragmentType.SELECT_ANCHORS);
             }
         );

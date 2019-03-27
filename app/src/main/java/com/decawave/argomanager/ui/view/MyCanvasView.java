@@ -8,33 +8,51 @@ import android.graphics.Paint;
 import android.graphics.PorterDuff;
 import android.graphics.Rect;
 import android.support.v4.content.res.ResourcesCompat;
+import android.text.InputFilter;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
 import com.decawave.argomanager.R;
+import com.decawave.argomanager.argoapi.ble.BleConnectionApi;
+import com.decawave.argomanager.components.NetworkNodeManager;
 import com.decawave.argomanager.components.struct.Anchor;
+import com.decawave.argomanager.ui.fragment.UpdateNodeTask;
+import com.decawave.argomanager.ui.uiutil.DecimalDigitsInputFilter;
+
+import javax.inject.Inject;
 
 /*This class has been made possible by this spectacular tutorial site:
 https://codelabs.developers.google.com/codelabs/advanced-android-training-draw-on-canvas/index.html?index=..%2F..advanced-android-training#2
  */
 
-public class MyCanvasView extends View {
+public class MyCanvasView extends View implements UpdateNodeTask.Ih {
+
     private Paint mNewAnchorPaint;
     private Paint mExistingAnchorPaint;
     private int colorBlack;
     private int colorRed;
     private Canvas mExtraCanvas;
     private Bitmap mExtraBitmap;
-    private float mX, mY;
+    private double mX, mY;
+    private double mZ = 1.65;
     private float rectWidth = 15;
     private float rectHeight = 15;
     private static final float TOUCH_TOLERANCE = 4;
     private Rect mFrame = new Rect();
     public Anchor tempAnchor = new Anchor();
+    public static final String TAG = "TN_debug";
 
-    MyCanvasView(Context context){
+    private static UpdateNodeTask updateNodeTask;
+
+    @Inject
+    NetworkNodeManager networkNodeManager;
+
+    @Inject
+    BleConnectionApi bleConnectionApi;
+
+    public MyCanvasView(Context context){
         this(context, null);
     }
 
@@ -124,14 +142,21 @@ public class MyCanvasView extends View {
         }
 
         mExtraCanvas.drawColor(Color.TRANSPARENT, PorterDuff.Mode.CLEAR);
-        mExtraCanvas.drawRect(mX-(rectWidth/2),mY-(rectHeight/2),mX+(rectWidth/2),mY+(rectHeight/2),mNewAnchorPaint);
-        mExtraCanvas.drawText(coords, mX + x_offset, mY + y_offset, mNewAnchorPaint);
+        mExtraCanvas.drawRect((float) mX-(rectWidth/2),(float) mY-(rectHeight/2),(float) mX+(rectWidth/2),(float) mY+(rectHeight/2),mNewAnchorPaint);
+        mExtraCanvas.drawText(coords, (float) mX + x_offset, (float) mY + y_offset, mNewAnchorPaint);
 
         tempAnchor.setAnchorX(mX);
         tempAnchor.setAnchorY(mY);
+        tempAnchor.setAnchorZ(mZ);
 
-        Log.i("TAG", "tempAnchor: \n" + tempAnchor.getName() + "\n" + tempAnchor.getAnchorX() + "\n" + tempAnchor.getAnchorY());
+        Log.i(TAG, "tempAnchor: \n" + tempAnchor.getName() + "\n" + tempAnchor.getAnchorX() + "\n" + tempAnchor.getAnchorY() + "\n" + tempAnchor.getAnchorZ());
+
+        updateNodeTask = new UpdateNodeTask(networkNodeManager, bleConnectionApi);
 
     }
 
+    public Anchor getTempAnchor() {
+        Log.i(TAG, "Trying to get the following tempAnchor: \n" + tempAnchor.getName() + "\n" + tempAnchor.getAnchorX() + "\n" + tempAnchor.getAnchorY());
+        return tempAnchor;
+    }
 }
