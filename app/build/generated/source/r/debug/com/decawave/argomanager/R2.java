@@ -3134,7 +3134,7 @@ public final class R2 {
     public static final int btn_set_anchor_coords = 0x7f0e0131;
 
     @IdRes
-    public static final int btn_submit_anchor = 0x7f0e00c3;
+    public static final int btn_submit_anchor = 0x7f0e00c2;
 
     @IdRes
     public static final int button = 0x7f0e00fc;
@@ -4004,7 +4004,7 @@ public final class R2 {
     public static final int uwbModeSelector = 0x7f0e011c;
 
     @IdRes
-    public static final int view = 0x7f0e00c2;
+    public static final int view = 0x7f0e00c3;
 
     @IdRes
     public static final int view_offset_helper = 0x7f0e0015;

@@ -1,0 +1,4 @@
+#Fri Mar 29 23:05:08 MDT 2019
+base.0=C\:\\Users\\Jeffrey\\Desktop\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0
+renamed.0=classes.dex
+file.0=C\:\\Users\\Jeffrey\\Desktop\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0\\classes.dex

@@ -1059,7 +1059,7 @@ int id btnInstructions 0x7f0e0114
 int id btnPreview 0x7f0e00ce
 int id btnSetupZaxis 0x7f0e00cf
 int id btn_set_anchor_coords 0x7f0e0131
-int id btn_submit_anchor 0x7f0e00c3
+int id btn_submit_anchor 0x7f0e00c2
 int id button 0x7f0e00fc
 int id buttonPanel 0x7f0e0057
 int id cancel_action 0x7f0e0136
@@ -1349,7 +1349,7 @@ int id uploadPercentage 0x7f0e00e7
 int id uploadProgress 0x7f0e00e5
 int id useLogo 0x7f0e0022
 int id uwbModeSelector 0x7f0e011c
-int id view 0x7f0e00c2
+int id view 0x7f0e00c3
 int id view_offset_helper 0x7f0e0015
 int id visible 0x7f0e014c
 int id warningIcon 0x7f0e00eb

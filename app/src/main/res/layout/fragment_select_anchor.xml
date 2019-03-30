@@ -1,35 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="vertical" >
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="Touch screen at anchor location" />
-
-    <view
-        android:id="@+id/view"
-        class="com.decawave.argomanager.ui.view.MyCanvasView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        />
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Touch screen at anchor location" />
 
     <Button
         android:id="@+id/btn_submit_anchor"
         style="@style/MtrlBorderlessButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        android:layout_margin="5dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
         android:text="@string/screen_title_set_coordinates"
         />
 
+    <view
+    android:id="@+id/view"
+    class="com.decawave.argomanager.ui.view.MyCanvasView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    />
 
 
-</RelativeLayout>
+
+</LinearLayout>
+
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--&gt;-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_above="@id/view"-->
+        <!--android:text="Touch screen at anchor location" />-->
+
+    <!--<view-->
+        <!--android:id="@+id/view"-->
+        <!--class="com.decawave.argomanager.ui.view.MyCanvasView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_above="@id/btn_submit_anchor"-->
+        <!--android:layout_below="@id/textView"-->
+        <!--/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_submit_anchor"-->
+        <!--style="@style/MtrlBorderlessButton"-->
+        <!--android:layout_below="@id/view"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:text="@string/screen_title_set_coordinates"-->
+        <!--/>-->
+
+
+
+<!--</RelativeLayout>-->
