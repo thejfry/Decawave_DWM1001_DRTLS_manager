@@ -4525,12 +4525,6 @@ containing a value of this type.
         public static final int Animation_AppCompat_Dialog=0x7f0a00ad;
         public static final int Animation_AppCompat_DropDownUp=0x7f0a00ae;
         public static final int Animation_Design_BottomSheetDialog=0x7f0a00af;
-        /** 
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
-         */
         public static final int AppBaseTheme=0x7f0a00b0;
         public static final int AppCompatCheckBoxButton=0x7f0a00b1;
         public static final int AppCompatCheckBoxButtonInDialog=0x7f0a00b2;
@@ -4731,8 +4725,6 @@ containing a value of this type.
         public static final int MtrlDialogThemeBase=0x7f0a0104;
         public static final int MtrlDialogTitle=0x7f0a0105;
         public static final int MyActionBar=0x7f0a0106;
-        /**  The textColor property is backward compatible with the Support Library 
-         */
         public static final int MyActionBarTitleText=0x7f0a0107;
         public static final int NetworkDetailsInList=0x7f0a0108;
         public static final int NetworkTitleInList=0x7f0a0109;
