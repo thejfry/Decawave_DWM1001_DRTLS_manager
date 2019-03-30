@@ -4056,19 +4056,22 @@ public final class R2 {
 
   public static final class string {
     @StringRes
-    public static final int ab_ble_log = 0x7f080015;
+    public static final int About_us_paragraph = 0x7f080015;
 
     @StringRes
-    public static final int ab_errors_warnings = 0x7f080016;
+    public static final int ab_ble_log = 0x7f080016;
 
     @StringRes
-    public static final int ab_grid = 0x7f080017;
+    public static final int ab_errors_warnings = 0x7f080017;
 
     @StringRes
-    public static final int ab_overview = 0x7f080018;
+    public static final int ab_grid = 0x7f080018;
 
     @StringRes
-    public static final int ab_position_log = 0x7f080019;
+    public static final int ab_overview = 0x7f080019;
+
+    @StringRes
+    public static final int ab_position_log = 0x7f08001a;
 
     @StringRes
     public static final int abc_action_bar_home_description = 0x7f080000;
@@ -4101,40 +4104,40 @@ public final class R2 {
     public static final int abc_capital_on = 0x7f080009;
 
     @StringRes
-    public static final int abc_font_family_body_1_material = 0x7f08001a;
+    public static final int abc_font_family_body_1_material = 0x7f08001b;
 
     @StringRes
-    public static final int abc_font_family_body_2_material = 0x7f08001b;
+    public static final int abc_font_family_body_2_material = 0x7f08001c;
 
     @StringRes
-    public static final int abc_font_family_button_material = 0x7f08001c;
+    public static final int abc_font_family_button_material = 0x7f08001d;
 
     @StringRes
-    public static final int abc_font_family_caption_material = 0x7f08001d;
+    public static final int abc_font_family_caption_material = 0x7f08001e;
 
     @StringRes
-    public static final int abc_font_family_display_1_material = 0x7f08001e;
+    public static final int abc_font_family_display_1_material = 0x7f08001f;
 
     @StringRes
-    public static final int abc_font_family_display_2_material = 0x7f08001f;
+    public static final int abc_font_family_display_2_material = 0x7f080020;
 
     @StringRes
-    public static final int abc_font_family_display_3_material = 0x7f080020;
+    public static final int abc_font_family_display_3_material = 0x7f080021;
 
     @StringRes
-    public static final int abc_font_family_display_4_material = 0x7f080021;
+    public static final int abc_font_family_display_4_material = 0x7f080022;
 
     @StringRes
-    public static final int abc_font_family_headline_material = 0x7f080022;
+    public static final int abc_font_family_headline_material = 0x7f080023;
 
     @StringRes
-    public static final int abc_font_family_menu_material = 0x7f080023;
+    public static final int abc_font_family_menu_material = 0x7f080024;
 
     @StringRes
-    public static final int abc_font_family_subhead_material = 0x7f080024;
+    public static final int abc_font_family_subhead_material = 0x7f080025;
 
     @StringRes
-    public static final int abc_font_family_title_material = 0x7f080025;
+    public static final int abc_font_family_title_material = 0x7f080026;
 
     @StringRes
     public static final int abc_search_hint = 0x7f08000a;
@@ -4164,864 +4167,864 @@ public final class R2 {
     public static final int abc_toolbar_collapse_description = 0x7f080012;
 
     @StringRes
-    public static final int about_tab = 0x7f080026;
+    public static final int about_tab = 0x7f080027;
 
     @StringRes
-    public static final int anchor_label = 0x7f080027;
+    public static final int anchor_label = 0x7f080028;
 
     @StringRes
-    public static final int anchor_name = 0x7f080028;
+    public static final int anchor_name = 0x7f080029;
 
     @StringRes
-    public static final int ap_btn_collect_distances_again = 0x7f080029;
+    public static final int ap_btn_collect_distances_again = 0x7f08002a;
 
     @StringRes
-    public static final int ap_btn_measure = 0x7f08002a;
+    public static final int ap_btn_measure = 0x7f08002b;
 
     @StringRes
-    public static final int ap_btn_preview = 0x7f08002b;
+    public static final int ap_btn_preview = 0x7f08002c;
 
     @StringRes
-    public static final int ap_btn_setup_zaxis = 0x7f08002c;
+    public static final int ap_btn_setup_zaxis = 0x7f08002d;
 
     @StringRes
-    public static final int ap_distance_retrieval_fail = 0x7f08002d;
+    public static final int ap_distance_retrieval_fail = 0x7f08002e;
 
     @StringRes
-    public static final int ap_initiator_check_fail = 0x7f08002e;
+    public static final int ap_initiator_check_fail = 0x7f08002f;
 
     @StringRes
-    public static final int ap_initiator_check_terminated = 0x7f08002f;
+    public static final int ap_initiator_check_terminated = 0x7f080030;
 
     @StringRes
-    public static final int ap_initiator_not_found_ap_cannot_be_started = 0x7f080030;
+    public static final int ap_initiator_not_found_ap_cannot_be_started = 0x7f080031;
 
     @StringRes
-    public static final int ap_legend_checking_initiator = 0x7f080031;
+    public static final int ap_legend_checking_initiator = 0x7f080032;
 
     @StringRes
-    public static final int ap_legend_collecting_distances = 0x7f080032;
+    public static final int ap_legend_collecting_distances = 0x7f080033;
 
     @StringRes
-    public static final int ap_legend_distance_collection_failed = 0x7f080033;
+    public static final int ap_legend_distance_collection_failed = 0x7f080034;
 
     @StringRes
-    public static final int ap_legend_distance_retrieval_terminated = 0x7f080034;
+    public static final int ap_legend_distance_retrieval_terminated = 0x7f080035;
 
     @StringRes
-    public static final int ap_legend_distance_success_compute_success = 0x7f080035;
+    public static final int ap_legend_distance_success_compute_success = 0x7f080036;
 
     @StringRes
-    public static final int ap_legend_driving_nodes_not_orthogonal_enough = 0x7f080036;
+    public static final int ap_legend_driving_nodes_not_orthogonal_enough = 0x7f080037;
 
     @StringRes
-    public static final int ap_legend_initiator_check_terminated = 0x7f080037;
+    public static final int ap_legend_initiator_check_terminated = 0x7f080038;
 
     @StringRes
-    public static final int ap_legend_initiator_failed = 0x7f080038;
+    public static final int ap_legend_initiator_failed = 0x7f080039;
 
     @StringRes
-    public static final int ap_legend_instructions = 0x7f080039;
+    public static final int ap_legend_instructions = 0x7f08003a;
 
     @StringRes
-    public static final int ap_legend_missing_node_distance = 0x7f08003a;
+    public static final int ap_legend_missing_node_distance = 0x7f08003b;
 
     @StringRes
-    public static final int ap_legend_position_save_failed = 0x7f08003b;
+    public static final int ap_legend_position_save_failed = 0x7f08003c;
 
     @StringRes
-    public static final int ap_legend_position_save_success = 0x7f08003c;
+    public static final int ap_legend_position_save_success = 0x7f08003d;
 
     @StringRes
-    public static final int ap_legend_position_save_terminated = 0x7f08003d;
+    public static final int ap_legend_position_save_terminated = 0x7f08003e;
 
     @StringRes
-    public static final int ap_legend_saving_positions = 0x7f08003e;
+    public static final int ap_legend_saving_positions = 0x7f08003f;
 
     @StringRes
-    public static final int ap_legend_start_measure_distances = 0x7f08003f;
+    public static final int ap_legend_start_measure_distances = 0x7f080040;
 
     @StringRes
-    public static final int ap_node_status_initiator_check = 0x7f080040;
+    public static final int ap_node_status_initiator_check = 0x7f080041;
 
     @StringRes
-    public static final int ap_node_status_measuring_distances = 0x7f080041;
+    public static final int ap_node_status_measuring_distances = 0x7f080042;
 
     @StringRes
-    public static final int ap_node_status_retrieving_distances = 0x7f080042;
+    public static final int ap_node_status_retrieving_distances = 0x7f080043;
 
     @StringRes
-    public static final int ap_node_status_saving_position = 0x7f080043;
+    public static final int ap_node_status_saving_position = 0x7f080044;
 
     @StringRes
-    public static final int ap_position_compute_failed = 0x7f080044;
+    public static final int ap_position_compute_failed = 0x7f080045;
 
     @StringRes
-    public static final int ap_position_not_computed_yet = 0x7f080045;
+    public static final int ap_position_not_computed_yet = 0x7f080046;
 
     @StringRes
-    public static final int ap_position_save_fail = 0x7f080046;
+    public static final int ap_position_save_fail = 0x7f080047;
 
     @StringRes
-    public static final int ap_position_save_terminated = 0x7f080047;
+    public static final int ap_position_save_terminated = 0x7f080048;
 
     @StringRes
-    public static final int ap_position_template_needs_save = 0x7f080048;
+    public static final int ap_position_template_needs_save = 0x7f080049;
 
     @StringRes
-    public static final int ap_position_template_no_save = 0x7f080049;
+    public static final int ap_position_template_no_save = 0x7f08004a;
 
     @StringRes
-    public static final int ap_preview = 0x7f08004a;
+    public static final int ap_preview = 0x7f08004b;
 
     @StringRes
-    public static final int ap_zaxis_hint = 0x7f08004b;
+    public static final int ap_zaxis_hint = 0x7f08004c;
 
     @StringRes
-    public static final int app_firmware = 0x7f08004c;
+    public static final int app_firmware = 0x7f08004d;
 
     @StringRes
-    public static final int app_name = 0x7f08004d;
+    public static final int app_name = 0x7f08004e;
 
     @StringRes
-    public static final int app_subtitle = 0x7f08004e;
+    public static final int app_subtitle = 0x7f08004f;
 
     @StringRes
-    public static final int app_version = 0x7f08004f;
+    public static final int app_version = 0x7f080050;
 
     @StringRes
-    public static final int appbar_scrolling_view_behavior = 0x7f080050;
+    public static final int appbar_scrolling_view_behavior = 0x7f080051;
 
     @StringRes
-    public static final int ble = 0x7f080051;
+    public static final int ble = 0x7f080052;
 
     @StringRes
-    public static final int ble_not_supported = 0x7f080052;
+    public static final int ble_not_supported = 0x7f080053;
 
     @StringRes
-    public static final int ble_not_turned_on = 0x7f080053;
+    public static final int ble_not_turned_on = 0x7f080054;
 
     @StringRes
-    public static final int bottom_sheet_behavior = 0x7f080054;
+    public static final int bottom_sheet_behavior = 0x7f080055;
 
     @StringRes
-    public static final int btn_cancel = 0x7f080055;
+    public static final int btn_cancel = 0x7f080056;
 
     @StringRes
-    public static final int btn_connect = 0x7f080056;
+    public static final int btn_connect = 0x7f080057;
 
     @StringRes
-    public static final int btn_disconnect = 0x7f080057;
+    public static final int btn_disconnect = 0x7f080058;
 
     @StringRes
-    public static final int btn_fetch = 0x7f080058;
+    public static final int btn_fetch = 0x7f080059;
 
     @StringRes
-    public static final int btn_firmware_upload = 0x7f080059;
+    public static final int btn_firmware_upload = 0x7f08005a;
 
     @StringRes
-    public static final int btn_observe = 0x7f08005a;
+    public static final int btn_observe = 0x7f08005b;
 
     @StringRes
-    public static final int btn_observe_stop = 0x7f08005b;
+    public static final int btn_observe_stop = 0x7f08005c;
 
     @StringRes
-    public static final int btn_ok = 0x7f08005c;
+    public static final int btn_ok = 0x7f08005d;
 
     @StringRes
-    public static final int btn_okay = 0x7f08005d;
+    public static final int btn_okay = 0x7f08005e;
 
     @StringRes
-    public static final int btn_rename = 0x7f08005e;
+    public static final int btn_rename = 0x7f08005f;
 
     @StringRes
-    public static final int btn_settings = 0x7f08005f;
+    public static final int btn_settings = 0x7f080060;
 
     @StringRes
-    public static final int btn_update = 0x7f080060;
+    public static final int btn_update = 0x7f080061;
 
     @StringRes
-    public static final int character_counter_pattern = 0x7f080061;
+    public static final int character_counter_pattern = 0x7f080062;
 
     @StringRes
-    public static final int clear = 0x7f080062;
+    public static final int clear = 0x7f080063;
 
     @StringRes
-    public static final int com_crashlytics_android_build_id = 0x7f080063;
+    public static final int com_crashlytics_android_build_id = 0x7f080064;
 
     @StringRes
-    public static final int copied_to_clipboard = 0x7f080064;
+    public static final int copied_to_clipboard = 0x7f080065;
 
     @StringRes
-    public static final int copy = 0x7f080065;
+    public static final int copy = 0x7f080066;
 
     @StringRes
-    public static final int crashlytics_not_configured = 0x7f080066;
+    public static final int crashlytics_not_configured = 0x7f080067;
 
     @StringRes
-    public static final int crashreport_sent = 0x7f080067;
+    public static final int crashreport_sent = 0x7f080068;
 
     @StringRes
-    public static final int declared_network_title = 0x7f080068;
+    public static final int declared_network_title = 0x7f080069;
 
     @StringRes
-    public static final int disabled = 0x7f080069;
+    public static final int disabled = 0x7f08006a;
 
     @StringRes
-    public static final int discovered_panid_title = 0x7f08006a;
+    public static final int discovered_panid_title = 0x7f08006b;
 
     @StringRes
-    public static final int discovery_multiselect_title = 0x7f08006b;
+    public static final int discovery_multiselect_title = 0x7f08006c;
 
     @StringRes
-    public static final int discovery_multiselection_action_assign = 0x7f08006c;
+    public static final int discovery_multiselection_action_assign = 0x7f08006d;
 
     @StringRes
-    public static final int discovery_network_assigned = 0x7f08006d;
+    public static final int discovery_network_assigned = 0x7f08006e;
 
     @StringRes
-    public static final int discovery_network_assignment_failed = 0x7f08006e;
+    public static final int discovery_network_assignment_failed = 0x7f08006f;
 
     @StringRes
-    public static final int discovery_new_network = 0x7f08006f;
+    public static final int discovery_new_network = 0x7f080070;
 
     @StringRes
-    public static final int discovery_section_title_networks = 0x7f080070;
+    public static final int discovery_section_title_networks = 0x7f080071;
 
     @StringRes
-    public static final int discovery_section_title_unassigned_devices = 0x7f080071;
+    public static final int discovery_section_title_unassigned_devices = 0x7f080072;
 
     @StringRes
-    public static final int discovery_section_title_unassigned_networks = 0x7f080072;
+    public static final int discovery_section_title_unassigned_networks = 0x7f080073;
 
     @StringRes
-    public static final int dlg_custom = 0x7f080073;
+    public static final int dlg_custom = 0x7f080074;
 
     @StringRes
-    public static final int dlg_list_multi = 0x7f080074;
+    public static final int dlg_list_multi = 0x7f080075;
 
     @StringRes
-    public static final int dlg_list_simple = 0x7f080075;
+    public static final int dlg_list_simple = 0x7f080076;
 
     @StringRes
-    public static final int dlg_list_single = 0x7f080076;
+    public static final int dlg_list_single = 0x7f080077;
 
     @StringRes
-    public static final int dlg_msg = 0x7f080077;
+    public static final int dlg_msg = 0x7f080078;
 
     @StringRes
-    public static final int do_discovery = 0x7f080078;
+    public static final int do_discovery = 0x7f080079;
 
     @StringRes
-    public static final int drag_handle = 0x7f080079;
+    public static final int drag_handle = 0x7f08007a;
 
     @StringRes
-    public static final int edit_action = 0x7f08007a;
+    public static final int edit_action = 0x7f08007b;
 
     @StringRes
-    public static final int enabled = 0x7f08007b;
+    public static final int enabled = 0x7f08007c;
 
     @StringRes
-    public static final int error = 0x7f08007c;
+    public static final int error = 0x7f08007d;
 
     @StringRes
-    public static final int floorplan_bitmap = 0x7f08007d;
+    public static final int floorplan_bitmap = 0x7f08007e;
 
     @StringRes
-    public static final int floorplan_center_x_hint = 0x7f08007e;
+    public static final int floorplan_center_x_hint = 0x7f08007f;
 
     @StringRes
-    public static final int floorplan_center_y_hint = 0x7f08007f;
+    public static final int floorplan_center_y_hint = 0x7f080080;
 
     @StringRes
-    public static final int floorplan_clear = 0x7f080080;
+    public static final int floorplan_clear = 0x7f080081;
 
     @StringRes
-    public static final int floorplan_load_bitmap = 0x7f080081;
+    public static final int floorplan_load_bitmap = 0x7f080082;
 
     @StringRes
-    public static final int floorplan_mb = 0x7f080082;
+    public static final int floorplan_mb = 0x7f080083;
 
     @StringRes
-    public static final int floorplan_move_mode = 0x7f080083;
+    public static final int floorplan_move_mode = 0x7f080084;
 
     @StringRes
-    public static final int floorplan_pixel_hint = 0x7f080084;
+    public static final int floorplan_pixel_hint = 0x7f080085;
 
     @StringRes
-    public static final int floorplan_rotate = 0x7f080085;
+    public static final int floorplan_rotate = 0x7f080086;
 
     @StringRes
-    public static final int floorplan_zoom_factor_meters = 0x7f080086;
+    public static final int floorplan_zoom_factor_meters = 0x7f080087;
 
     @StringRes
-    public static final int floorplan_zoom_factor_yards = 0x7f080087;
+    public static final int floorplan_zoom_factor_yards = 0x7f080088;
 
     @StringRes
-    public static final int fw1 = 0x7f080088;
+    public static final int fw1 = 0x7f080089;
 
     @StringRes
-    public static final int fw2 = 0x7f080089;
+    public static final int fw2 = 0x7f08008a;
 
     @StringRes
-    public static final int fw_update_fw1version_checksum = 0x7f08008a;
+    public static final int fw_update_fw1version_checksum = 0x7f08008b;
 
     @StringRes
-    public static final int fw_update_fw1version_checksum_short = 0x7f08008b;
+    public static final int fw_update_fw1version_checksum_short = 0x7f08008c;
 
     @StringRes
-    public static final int fw_update_fw2version_checksum = 0x7f08008c;
+    public static final int fw_update_fw2version_checksum = 0x7f08008d;
 
     @StringRes
-    public static final int fw_update_fw2version_checksum_short = 0x7f08008d;
+    public static final int fw_update_fw2version_checksum_short = 0x7f08008e;
 
     @StringRes
-    public static final int fw_upload_cancelled = 0x7f08008e;
+    public static final int fw_upload_cancelled = 0x7f08008f;
 
     @StringRes
-    public static final int fw_upload_fail = 0x7f08008f;
+    public static final int fw_upload_fail = 0x7f080090;
 
     @StringRes
-    public static final int fw_upload_percentage = 0x7f080090;
+    public static final int fw_upload_percentage = 0x7f080091;
 
     @StringRes
-    public static final int fw_upload_restoring_initial_state = 0x7f080091;
+    public static final int fw_upload_restoring_initial_state = 0x7f080092;
 
     @StringRes
-    public static final int fw_upload_skipped = 0x7f080092;
+    public static final int fw_upload_skipped = 0x7f080093;
 
     @StringRes
-    public static final int fw_upload_success = 0x7f080093;
+    public static final int fw_upload_success = 0x7f080094;
 
     @StringRes
-    public static final int hello_blank_fragment = 0x7f080094;
+    public static final int hello_blank_fragment = 0x7f080095;
 
     @StringRes
-    public static final int help_icon = 0x7f080095;
+    public static final int help_icon = 0x7f080096;
 
     @StringRes
-    public static final int how_many_times = 0x7f080096;
+    public static final int how_many_times = 0x7f080097;
 
     @StringRes
-    public static final int imperial_units = 0x7f080097;
+    public static final int imperial_units = 0x7f080098;
 
     @StringRes
-    public static final int imperial_units_unit = 0x7f080098;
+    public static final int imperial_units_unit = 0x7f080099;
 
     @StringRes
-    public static final int locate_action = 0x7f080099;
+    public static final int locate_action = 0x7f08009a;
 
     @StringRes
-    public static final int location_data_mode_distances = 0x7f08009a;
+    public static final int location_data_mode_distances = 0x7f08009b;
 
     @StringRes
-    public static final int location_data_mode_position = 0x7f08009b;
+    public static final int location_data_mode_position = 0x7f08009c;
 
     @StringRes
-    public static final int location_data_mode_position_and_distances = 0x7f08009c;
+    public static final int location_data_mode_position_and_distances = 0x7f08009d;
 
     @StringRes
-    public static final int log_title_discovery = 0x7f08009d;
+    public static final int log_title_discovery = 0x7f08009e;
 
     @StringRes
-    public static final int log_title_network = 0x7f08009e;
+    public static final int log_title_network = 0x7f08009f;
 
     @StringRes
-    public static final int max_number_of_tracked_tags_reached = 0x7f08009f;
+    public static final int max_number_of_tracked_tags_reached = 0x7f0800a0;
 
     @StringRes
-    public static final int menu_autopositioning = 0x7f0800a0;
+    public static final int menu_autopositioning = 0x7f0800a1;
 
     @StringRes
-    public static final int menu_firmware_status = 0x7f0800a1;
+    public static final int menu_firmware_status = 0x7f0800a2;
 
     @StringRes
-    public static final int menu_floorplan = 0x7f0800a2;
+    public static final int menu_floorplan = 0x7f0800a3;
 
     @StringRes
-    public static final int menu_forget = 0x7f0800a3;
+    public static final int menu_forget = 0x7f0800a4;
 
     @StringRes
-    public static final int menu_rename = 0x7f0800a4;
+    public static final int menu_rename = 0x7f0800a5;
 
     @StringRes
-    public static final int menu_settings = 0x7f0800a5;
+    public static final int menu_settings = 0x7f0800a6;
 
     @StringRes
-    public static final int menu_show_debug_info = 0x7f0800a6;
+    public static final int menu_show_debug_info = 0x7f0800a7;
 
     @StringRes
-    public static final int menu_show_errors = 0x7f0800a7;
+    public static final int menu_show_errors = 0x7f0800a8;
 
     @StringRes
-    public static final int menu_show_grid = 0x7f0800a8;
+    public static final int menu_show_grid = 0x7f0800a9;
 
     @StringRes
-    public static final int metric_units = 0x7f0800a9;
+    public static final int metric_units = 0x7f0800aa;
 
     @StringRes
-    public static final int metric_units_unit = 0x7f0800aa;
+    public static final int metric_units_unit = 0x7f0800ab;
 
     @StringRes
-    public static final int millisecond = 0x7f0800ab;
+    public static final int millisecond = 0x7f0800ac;
 
     @StringRes
-    public static final int mode_advanced = 0x7f0800ac;
+    public static final int mode_advanced = 0x7f0800ad;
 
     @StringRes
-    public static final int mode_simple = 0x7f0800ad;
+    public static final int mode_simple = 0x7f0800ae;
 
     @StringRes
-    public static final int navigation_development_tools = 0x7f0800ae;
+    public static final int navigation_development_tools = 0x7f0800af;
 
     @StringRes
-    public static final int navigation_drawer_close = 0x7f0800af;
+    public static final int navigation_drawer_close = 0x7f0800b0;
 
     @StringRes
-    public static final int navigation_drawer_open = 0x7f0800b0;
+    public static final int navigation_drawer_open = 0x7f0800b1;
 
     @StringRes
-    public static final int network_icon = 0x7f0800b1;
+    public static final int network_icon = 0x7f0800b2;
 
     @StringRes
-    public static final int network_id = 0x7f0800b2;
+    public static final int network_id = 0x7f0800b3;
 
     @StringRes
-    public static final int network_name_hint = 0x7f0800b3;
+    public static final int network_name_hint = 0x7f0800b4;
 
     @StringRes
-    public static final int network_removed = 0x7f0800b4;
+    public static final int network_removed = 0x7f0800b5;
 
     @StringRes
-    public static final int new_network = 0x7f0800b5;
+    public static final int new_network = 0x7f0800b6;
 
     @StringRes
-    public static final int no = 0x7f0800b6;
+    public static final int no = 0x7f0800b7;
 
     @StringRes
-    public static final int no_configured_network = 0x7f0800b7;
+    public static final int no_configured_network = 0x7f0800b8;
 
     @StringRes
-    public static final int no_errors = 0x7f0800b8;
+    public static final int no_errors = 0x7f0800b9;
 
     @StringRes
-    public static final int no_nearby_devices_found = 0x7f0800b9;
+    public static final int no_nearby_devices_found = 0x7f0800ba;
 
     @StringRes
-    public static final int no_network = 0x7f0800ba;
+    public static final int no_network = 0x7f0800bb;
 
     @StringRes
-    public static final int no_network_nodes = 0x7f0800bb;
+    public static final int no_network_nodes = 0x7f0800bc;
 
     @StringRes
-    public static final int no_reachable_anchor_nodes = 0x7f0800bc;
+    public static final int no_reachable_anchor_nodes = 0x7f0800bd;
 
     @StringRes
-    public static final int node_ble_pattern = 0x7f0800bd;
+    public static final int node_ble_pattern = 0x7f0800be;
 
     @StringRes
-    public static final int node_detail_accelerometer = 0x7f0800be;
+    public static final int node_detail_accelerometer = 0x7f0800bf;
 
     @StringRes
-    public static final int node_detail_anchor_list = 0x7f0800bf;
+    public static final int node_detail_anchor_list = 0x7f0800c0;
 
     @StringRes
-    public static final int node_detail_ble_address = 0x7f0800c0;
+    public static final int node_detail_ble_address = 0x7f0800c1;
 
     @StringRes
-    public static final int node_detail_bridge = 0x7f0800c1;
+    public static final int node_detail_bridge = 0x7f0800c2;
 
     @StringRes
-    public static final int node_detail_cluster_map = 0x7f0800c2;
+    public static final int node_detail_cluster_map = 0x7f0800c3;
 
     @StringRes
-    public static final int node_detail_cluster_neighbour_map = 0x7f0800c3;
+    public static final int node_detail_cluster_neighbour_map = 0x7f0800c4;
 
     @StringRes
-    public static final int node_detail_empty_node_label = 0x7f0800c4;
+    public static final int node_detail_empty_node_label = 0x7f0800c5;
 
     @StringRes
-    public static final int node_detail_firmware_update = 0x7f0800c5;
+    public static final int node_detail_firmware_update = 0x7f0800c6;
 
     @StringRes
-    public static final int node_detail_fw1_checksum = 0x7f0800c6;
+    public static final int node_detail_fw1_checksum = 0x7f0800c7;
 
     @StringRes
-    public static final int node_detail_fw1_version = 0x7f0800c7;
+    public static final int node_detail_fw1_version = 0x7f0800c8;
 
     @StringRes
-    public static final int node_detail_fw2_checksum = 0x7f0800c8;
+    public static final int node_detail_fw2_checksum = 0x7f0800c9;
 
     @StringRes
-    public static final int node_detail_fw2_version = 0x7f0800c9;
+    public static final int node_detail_fw2_version = 0x7f0800ca;
 
     @StringRes
-    public static final int node_detail_hw_version = 0x7f0800ca;
+    public static final int node_detail_hw_version = 0x7f0800cb;
 
     @StringRes
-    public static final int node_detail_id = 0x7f0800cb;
+    public static final int node_detail_id = 0x7f0800cc;
 
     @StringRes
-    public static final int node_detail_initiator = 0x7f0800cc;
+    public static final int node_detail_initiator = 0x7f0800cd;
 
     @StringRes
-    public static final int node_detail_label = 0x7f0800cd;
+    public static final int node_detail_label = 0x7f0800ce;
 
     @StringRes
-    public static final int node_detail_last_seen = 0x7f0800ce;
+    public static final int node_detail_last_seen = 0x7f0800cf;
 
     @StringRes
-    public static final int node_detail_led_indication = 0x7f0800cf;
+    public static final int node_detail_led_indication = 0x7f0800d0;
 
     @StringRes
-    public static final int node_detail_location_data_mode = 0x7f0800d0;
+    public static final int node_detail_location_data_mode = 0x7f0800d1;
 
     @StringRes
-    public static final int node_detail_location_engine = 0x7f0800d1;
+    public static final int node_detail_location_engine = 0x7f0800d2;
 
     @StringRes
-    public static final int node_detail_mac_stats = 0x7f0800d2;
+    public static final int node_detail_mac_stats = 0x7f0800d3;
 
     @StringRes
-    public static final int node_detail_must_selected_network = 0x7f0800d3;
+    public static final int node_detail_must_selected_network = 0x7f0800d4;
 
     @StringRes
-    public static final int node_detail_network = 0x7f0800d4;
+    public static final int node_detail_network = 0x7f0800d5;
 
     @StringRes
-    public static final int node_detail_node_type = 0x7f0800d5;
+    public static final int node_detail_node_type = 0x7f0800d6;
 
     @StringRes
-    public static final int node_detail_operating_firmware = 0x7f0800d6;
+    public static final int node_detail_operating_firmware = 0x7f0800d7;
 
     @StringRes
-    public static final int node_detail_password = 0x7f0800d7;
+    public static final int node_detail_password = 0x7f0800d8;
 
     @StringRes
-    public static final int node_detail_position = 0x7f0800d8;
+    public static final int node_detail_position = 0x7f0800d9;
 
     @StringRes
-    public static final int node_detail_position_input_invalid = 0x7f0800d9;
+    public static final int node_detail_position_input_invalid = 0x7f0800da;
 
     @StringRes
-    public static final int node_detail_position_x = 0x7f0800da;
+    public static final int node_detail_position_x = 0x7f0800db;
 
     @StringRes
-    public static final int node_detail_position_y = 0x7f0800db;
+    public static final int node_detail_position_y = 0x7f0800dc;
 
     @StringRes
-    public static final int node_detail_position_z = 0x7f0800dc;
+    public static final int node_detail_position_z = 0x7f0800dd;
 
     @StringRes
-    public static final int node_detail_ranging_anchors = 0x7f0800dd;
+    public static final int node_detail_ranging_anchors = 0x7f0800de;
 
     @StringRes
-    public static final int node_detail_responsive_mode = 0x7f0800de;
+    public static final int node_detail_responsive_mode = 0x7f0800df;
 
     @StringRes
-    public static final int node_detail_seat_number = 0x7f0800df;
+    public static final int node_detail_seat_number = 0x7f0800e0;
 
     @StringRes
-    public static final int node_detail_stationary_update_rate = 0x7f0800e0;
+    public static final int node_detail_stationary_update_rate = 0x7f0800e1;
 
     @StringRes
-    public static final int node_detail_statistics = 0x7f0800e1;
+    public static final int node_detail_statistics = 0x7f0800e2;
 
     @StringRes
-    public static final int node_detail_update_rate = 0x7f0800e2;
+    public static final int node_detail_update_rate = 0x7f0800e3;
 
     @StringRes
-    public static final int node_detail_uwb_mode = 0x7f0800e3;
+    public static final int node_detail_uwb_mode = 0x7f0800e4;
 
     @StringRes
-    public static final int node_edit_accelerometer = 0x7f0800e4;
+    public static final int node_edit_accelerometer = 0x7f0800e5;
 
     @StringRes
-    public static final int node_edit_bridge = 0x7f0800e5;
+    public static final int node_edit_bridge = 0x7f0800e6;
 
     @StringRes
-    public static final int node_edit_initiator = 0x7f0800e6;
+    public static final int node_edit_initiator = 0x7f0800e7;
 
     @StringRes
-    public static final int node_edit_led = 0x7f0800e7;
+    public static final int node_edit_led = 0x7f0800e8;
 
     @StringRes
-    public static final int node_edit_location_engine = 0x7f0800e8;
+    public static final int node_edit_location_engine = 0x7f0800e9;
 
     @StringRes
-    public static final int node_edit_no_change_detected = 0x7f0800e9;
+    public static final int node_edit_no_change_detected = 0x7f0800ea;
 
     @StringRes
-    public static final int node_edit_online = 0x7f0800ea;
+    public static final int node_edit_online = 0x7f0800eb;
 
     @StringRes
-    public static final int node_edit_responsive_mode = 0x7f0800eb;
+    public static final int node_edit_responsive_mode = 0x7f0800ec;
 
     @StringRes
-    public static final int node_edit_successfully_updated = 0x7f0800ec;
+    public static final int node_edit_successfully_updated = 0x7f0800ed;
 
     @StringRes
-    public static final int node_edit_update_failed = 0x7f0800ed;
+    public static final int node_edit_update_failed = 0x7f0800ee;
 
     @StringRes
-    public static final int node_edit_uwb_firmware_update = 0x7f0800ee;
+    public static final int node_edit_uwb_firmware_update = 0x7f0800ef;
 
     @StringRes
-    public static final int node_id_pattern = 0x7f0800ef;
+    public static final int node_id_pattern = 0x7f0800f0;
 
     @StringRes
-    public static final int node_menu = 0x7f0800f0;
+    public static final int node_menu = 0x7f0800f1;
 
     @StringRes
-    public static final int node_removed = 0x7f0800f1;
+    public static final int node_removed = 0x7f0800f2;
 
     @StringRes
-    public static final int node_type_anchor = 0x7f0800f2;
+    public static final int node_type_anchor = 0x7f0800f3;
 
     @StringRes
-    public static final int node_type_tag = 0x7f0800f3;
+    public static final int node_type_tag = 0x7f0800f4;
 
     @StringRes
-    public static final int not_set = 0x7f0800f4;
+    public static final int not_set = 0x7f0800f5;
 
     @StringRes
-    public static final int off = 0x7f0800f5;
+    public static final int off = 0x7f0800f6;
 
     @StringRes
-    public static final int ok = 0x7f0800f6;
+    public static final int ok = 0x7f0800f7;
 
     @StringRes
-    public static final int on = 0x7f0800f7;
+    public static final int on = 0x7f0800f8;
 
     @StringRes
-    public static final int overview_node_warning = 0x7f0800f8;
+    public static final int overview_node_warning = 0x7f0800f9;
 
     @StringRes
-    public static final int password_toggle_content_description = 0x7f0800f9;
+    public static final int password_toggle_content_description = 0x7f0800fa;
 
     @StringRes
-    public static final int path_password_eye = 0x7f0800fa;
+    public static final int path_password_eye = 0x7f0800fb;
 
     @StringRes
-    public static final int path_password_eye_mask_strike_through = 0x7f0800fb;
+    public static final int path_password_eye_mask_strike_through = 0x7f0800fc;
 
     @StringRes
-    public static final int path_password_eye_mask_visible = 0x7f0800fc;
+    public static final int path_password_eye_mask_visible = 0x7f0800fd;
 
     @StringRes
-    public static final int path_password_strike_through = 0x7f0800fd;
+    public static final int path_password_strike_through = 0x7f0800fe;
 
     @StringRes
-    public static final int position_template = 0x7f0800fe;
+    public static final int position_template = 0x7f0800ff;
 
     @StringRes
-    public static final int pref_about_title = 0x7f0800ff;
+    public static final int pref_about_title = 0x7f080100;
 
     @StringRes
-    public static final int pref_application_mode_title = 0x7f080100;
+    public static final int pref_application_mode_title = 0x7f080101;
 
     @StringRes
-    public static final int pref_build_time = 0x7f080101;
+    public static final int pref_build_time = 0x7f080102;
 
     @StringRes
-    public static final int pref_device_id_title = 0x7f080102;
+    public static final int pref_device_id_title = 0x7f080103;
 
     @StringRes
-    public static final int pref_firmware = 0x7f080103;
+    public static final int pref_firmware = 0x7f080104;
 
     @StringRes
-    public static final int pref_units_title = 0x7f080104;
+    public static final int pref_units_title = 0x7f080105;
 
     @StringRes
-    public static final int pref_version_title = 0x7f080105;
+    public static final int pref_version_title = 0x7f080106;
 
     @StringRes
-    public static final int save = 0x7f080106;
+    public static final int save = 0x7f080107;
 
     @StringRes
-    public static final int screen_title_about_tab = 0x7f080107;
+    public static final int screen_title_about_tab = 0x7f080108;
 
     @StringRes
-    public static final int screen_title_auto_positioning = 0x7f080108;
+    public static final int screen_title_auto_positioning = 0x7f080109;
 
     @StringRes
-    public static final int screen_title_debug_console = 0x7f080109;
+    public static final int screen_title_debug_console = 0x7f08010a;
 
     @StringRes
-    public static final int screen_title_debug_log = 0x7f08010a;
+    public static final int screen_title_debug_log = 0x7f08010b;
 
     @StringRes
-    public static final int screen_title_discovery = 0x7f08010b;
+    public static final int screen_title_discovery = 0x7f08010c;
 
     @StringRes
-    public static final int screen_title_firmware_update = 0x7f08010c;
+    public static final int screen_title_firmware_update = 0x7f08010d;
 
     @StringRes
-    public static final int screen_title_floorplan = 0x7f08010d;
+    public static final int screen_title_floorplan = 0x7f08010e;
 
     @StringRes
-    public static final int screen_title_instructions = 0x7f08010e;
+    public static final int screen_title_instructions = 0x7f08010f;
 
     @StringRes
-    public static final int screen_title_node_details = 0x7f08010f;
+    public static final int screen_title_node_details = 0x7f080110;
 
     @StringRes
-    public static final int screen_title_position_log = 0x7f080110;
+    public static final int screen_title_position_log = 0x7f080111;
 
     @StringRes
-    public static final int screen_title_problematic_nodes = 0x7f080111;
+    public static final int screen_title_problematic_nodes = 0x7f080112;
 
     @StringRes
-    public static final int screen_title_select_anchor = 0x7f080112;
+    public static final int screen_title_select_anchor = 0x7f080113;
 
     @StringRes
-    public static final int screen_title_set_coordinates = 0x7f080113;
+    public static final int screen_title_set_coordinates = 0x7f080114;
 
     @StringRes
-    public static final int screen_title_settings = 0x7f080114;
+    public static final int screen_title_settings = 0x7f080115;
 
     @StringRes
     public static final int search_menu_title = 0x7f080013;
 
     @StringRes
-    public static final int settings_about = 0x7f080115;
+    public static final int settings_about = 0x7f080116;
 
     @StringRes
-    public static final int share = 0x7f080116;
+    public static final int share = 0x7f080117;
 
     @StringRes
-    public static final int snackbar_action_read = 0x7f080117;
+    public static final int snackbar_action_read = 0x7f080118;
 
     @StringRes
-    public static final int snackbar_read_instructions = 0x7f080118;
+    public static final int snackbar_read_instructions = 0x7f080119;
 
     @StringRes
-    public static final int start_position_observation = 0x7f080119;
+    public static final int start_position_observation = 0x7f08011a;
 
     @StringRes
     public static final int status_bar_notification_info_overflow = 0x7f080014;
 
     @StringRes
-    public static final int stop_position_observation = 0x7f08011a;
+    public static final int stop_position_observation = 0x7f08011b;
 
     @StringRes
-    public static final int tag_label = 0x7f08011b;
+    public static final int tag_label = 0x7f08011c;
 
     @StringRes
-    public static final int tag_name = 0x7f08011c;
+    public static final int tag_name = 0x7f08011d;
 
     @StringRes
-    public static final int tap_here = 0x7f08011d;
+    public static final int tap_here = 0x7f08011e;
 
     @StringRes
-    public static final int tap_to_show_discovered_nodes = 0x7f08011e;
+    public static final int tap_to_show_discovered_nodes = 0x7f08011f;
 
     @StringRes
-    public static final int title_choose_network = 0x7f08011f;
+    public static final int title_choose_network = 0x7f080120;
 
     @StringRes
-    public static final int track_mode_toggle = 0x7f080120;
+    public static final int track_mode_toggle = 0x7f080121;
 
     @StringRes
-    public static final int undo = 0x7f080121;
+    public static final int undo = 0x7f080122;
 
     @StringRes
-    public static final int unit_cm = 0x7f080122;
+    public static final int unit_cm = 0x7f080123;
 
     @StringRes
-    public static final int unit_ft = 0x7f080123;
+    public static final int unit_ft = 0x7f080124;
 
     @StringRes
-    public static final int unit_in = 0x7f080124;
+    public static final int unit_in = 0x7f080125;
 
     @StringRes
-    public static final int unit_km = 0x7f080125;
+    public static final int unit_km = 0x7f080126;
 
     @StringRes
-    public static final int unit_m = 0x7f080126;
+    public static final int unit_m = 0x7f080127;
 
     @StringRes
-    public static final int unit_mi = 0x7f080127;
+    public static final int unit_mi = 0x7f080128;
 
     @StringRes
-    public static final int unit_yd = 0x7f080128;
+    public static final int unit_yd = 0x7f080129;
 
     @StringRes
-    public static final int unknown_network = 0x7f080129;
+    public static final int unknown_network = 0x7f08012a;
 
     @StringRes
-    public static final int unsupported_update_rate_value = 0x7f08012a;
+    public static final int unsupported_update_rate_value = 0x7f08012b;
 
     @StringRes
-    public static final int update_rate_100ms = 0x7f08012b;
+    public static final int update_rate_100ms = 0x7f08012c;
 
     @StringRes
-    public static final int update_rate_10m = 0x7f08012c;
+    public static final int update_rate_10m = 0x7f08012d;
 
     @StringRes
-    public static final int update_rate_10s = 0x7f08012d;
+    public static final int update_rate_10s = 0x7f08012e;
 
     @StringRes
-    public static final int update_rate_1m = 0x7f08012e;
+    public static final int update_rate_1m = 0x7f08012f;
 
     @StringRes
-    public static final int update_rate_1s = 0x7f08012f;
+    public static final int update_rate_1s = 0x7f080130;
 
     @StringRes
-    public static final int update_rate_200ms = 0x7f080130;
+    public static final int update_rate_200ms = 0x7f080131;
 
     @StringRes
-    public static final int update_rate_2m = 0x7f080131;
+    public static final int update_rate_2m = 0x7f080132;
 
     @StringRes
-    public static final int update_rate_2s = 0x7f080132;
+    public static final int update_rate_2s = 0x7f080133;
 
     @StringRes
-    public static final int update_rate_30s = 0x7f080133;
+    public static final int update_rate_30s = 0x7f080134;
 
     @StringRes
-    public static final int update_rate_500ms = 0x7f080134;
+    public static final int update_rate_500ms = 0x7f080135;
 
     @StringRes
-    public static final int update_rate_5m = 0x7f080135;
+    public static final int update_rate_5m = 0x7f080136;
 
     @StringRes
-    public static final int update_rate_5s = 0x7f080136;
+    public static final int update_rate_5s = 0x7f080137;
 
     @StringRes
-    public static final int update_rate_default = 0x7f080137;
+    public static final int update_rate_default = 0x7f080138;
 
     @StringRes
-    public static final int uwb = 0x7f080138;
+    public static final int uwb = 0x7f080139;
 
     @StringRes
-    public static final int uwb_mode_active = 0x7f080139;
+    public static final int uwb_mode_active = 0x7f08013a;
 
     @StringRes
-    public static final int uwb_mode_off = 0x7f08013a;
+    public static final int uwb_mode_off = 0x7f08013b;
 
     @StringRes
-    public static final int uwb_mode_passive = 0x7f08013b;
+    public static final int uwb_mode_passive = 0x7f08013c;
 
     @StringRes
-    public static final int value_not_known_dropdown = 0x7f08013c;
+    public static final int value_not_known_dropdown = 0x7f08013d;
 
     @StringRes
-    public static final int value_not_known_tabular = 0x7f08013d;
+    public static final int value_not_known_tabular = 0x7f08013e;
 
     @StringRes
-    public static final int warning = 0x7f08013e;
+    public static final int warning = 0x7f08013f;
 
     @StringRes
-    public static final int warning_node_uwb_off = 0x7f08013f;
+    public static final int warning_node_uwb_off = 0x7f080140;
 
     @StringRes
-    public static final int warning_same_position = 0x7f080140;
+    public static final int warning_same_position = 0x7f080141;
 
     @StringRes
-    public static final int warning_tag_node_uwb_passive = 0x7f080141;
+    public static final int warning_tag_node_uwb_passive = 0x7f080142;
 
     @StringRes
-    public static final int yes = 0x7f080142;
+    public static final int yes = 0x7f080143;
   }
 }

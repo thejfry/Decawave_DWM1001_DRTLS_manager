@@ -466,7 +466,7 @@ public class MainActivity extends AppCompatActivity
                     showFragment(FragmentType.INSTRUCTIONS);
                     break;
                 case R.id.nav_AboutUs_tab:
-                    showFragment(FragmentType.SELECT_ANCHOR);
+                    showFragment(FragmentType.ABOUT_US);
                     break;
                 default:
                     throw new IllegalStateException("unexpected item clicked: " + id);
