@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="argo-api">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/argo-api/build/libs/argo-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

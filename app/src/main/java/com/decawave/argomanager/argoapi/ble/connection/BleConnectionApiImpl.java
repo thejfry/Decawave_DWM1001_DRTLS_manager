@@ -147,58 +147,66 @@ public class BleConnectionApiImpl implements BleConnectionApi {
                 if (nodeId != null) {
                     // -----------------------------------------------------------------------------
                     //Start TNRTLS Positioning Algorithm
+                    //log.i("myLog",locationData.distances.size().toString());
+                    if (locationData.distances.size()>2) {
 
-                    //replace locationData with least squares position
-                    List<NetworkNodeEnhanced> anchors = new ArrayList<NetworkNodeEnhanced>();
+                        //replace locationData with least squares position
+                        List<NetworkNodeEnhanced> anchors = new ArrayList<NetworkNodeEnhanced>();
 
-                    for (int i=0;i<locationData.distances.size();i++)
-                    {
-                        anchors.add(networkNodeManager.getNodeByShortId(locationData.distances.get(i).nodeId));
-                    }
-
-                    //Least Squares Implementation
-                    int z=1150;//Fix height
-                    int n=locationData.distances.size();
-                    double x0=locationData.position.x;
-                    double y0=locationData.position.y;
-                    double dist;
-
-                    Matrix A=new Matrix(n,2);
-                    Matrix w=new Matrix(n,1);
-                    Matrix d=new Matrix(2,1);
-
-                    d.set(0,0,2);
-                    d.set(1,0,2);
-
-                    while(abs(d.get(0,0))>1&&abs(d.get(1,0))>1)
-                    {
-                        for (int i = 0; i < n; i++) {
-                            Position anch = anchors.get(i).asPlainNode().getProperty(ANCHOR_POSITION);
-                            dist = sqrt(pow(x0 - anch.x, 2) + pow(y0 - anch.y, 2) + pow(z - anch.z, 2));
-                            A.set(i, 0, (x0 - anch.x) / dist);
-                            A.set(i, 1, (y0 - anch.y) / dist);
-                            w.set(i, 0, dist - locationData.distances.get(i).distance.length);
+                        for (int i = 0; i < locationData.distances.size(); i++) {
+                            anchors.add(networkNodeManager.getNodeByShortId(locationData.distances.get(i).nodeId));
                         }
 
-                        d=(A.transpose().times(A)).inverse().times(A.transpose().times(w)).times(-1.0);
+                        //Least Squares Implementation
+                        int z = 1150;//Fix height
+                        int n = locationData.distances.size();
+                        double x0 = locationData.position.x;
+                        double y0 = locationData.position.y;
+                        double dist;
 
-                        x0 = x0 + d.get(0, 0);
-                        y0 = y0 + d.get(1, 0);
+                        Matrix A = new Matrix(n, 2);
+                        Matrix w = new Matrix(n, 1);
+                        Matrix d = new Matrix(2, 1);
 
+                        d.set(0, 0, 200);
+                        d.set(1, 0, 200);
+
+                        while (abs(d.get(0, 0)) > 50 && abs(d.get(1, 0)) > 50) {
+                        //for(int test=0;test<1;test++){
+                            for (int i = 0; i < n; i++) {
+                                Position anch = anchors.get(i).asPlainNode().getProperty(ANCHOR_POSITION);
+                                dist = sqrt(pow(x0 - anch.x, 2) + pow(y0 - anch.y, 2) + pow(z - anch.z, 2));
+                                A.set(i, 0, (x0 - anch.x) / dist);
+                                A.set(i, 1, (y0 - anch.y) / dist);
+                                w.set(i, 0, dist - locationData.distances.get(i).distance.length);
+                            }
+
+                            d = (A.transpose().times(A)).inverse().times(A.transpose().times(w)).times(-1.0);
+
+                            x0 = x0 + d.get(0, 0);
+                            y0 = y0 + d.get(1, 0);
+
+                        }
+                        //END OF Least Squares Implementation
+
+
+                        locationData.position.x = (int) round(x0);
+                        locationData.position.y = (int) round(y0);
+                        locationData.position.z = z;
+                        //End TNRTLS Positioning Algorithm
+                        // -----------------------------------------------------------------------------
+
+                        // let the network node manager know - Update position with TNRTLS
+                        networkNodeManager.updateTagLocationData(nodeId, locationData);
+                        // log the received location data
+                        locationDataLogger.logLocationData(nodeId, bleAddress, locationData.position, locationData.distances, false);
                     }
-                    //END OF Least Squares Implementation
+                    else
+                    {
+                        locationDataLogger.logLocationData(nodeId, bleAddress, null, locationData.distances, false);
+                    }
 
 
-                    locationData.position.x = (int) round(x0);
-                    locationData.position.y = (int) round(y0);
-                    locationData.position.z = z;
-                    //End TNRTLS Positioning Algorithm
-                    // -----------------------------------------------------------------------------
-
-                    // let the network node manager know - Update position with TNRTLS
-                    networkNodeManager.updateTagLocationData(nodeId, locationData);
-                    // log the received location data
-                    locationDataLogger.logLocationData(nodeId, bleAddress, locationData.position, locationData.distances, false);
 
 
 

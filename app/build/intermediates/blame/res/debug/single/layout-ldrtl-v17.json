@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\Jeffrey\\Desktop\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout-ldrtl-v17\\md_listitem_multichoice.xml",
-        "source": "C:\\Users\\Jeffrey\\.android\\build-cache\\94c8db02a634fd4360817603990d20a6925f5488\\output\\res\\layout-ldrtl-v17\\md_listitem_multichoice.xml"
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout-ldrtl-v17\\md_listitem_singlechoice.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\7b2858baf08362c363b342ccbfb0fd577f98b594\\output\\res\\layout-ldrtl-v17\\md_listitem_singlechoice.xml"
     },
     {
-        "merged": "C:\\Users\\Jeffrey\\Desktop\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout-ldrtl-v17\\md_listitem_singlechoice.xml",
-        "source": "C:\\Users\\Jeffrey\\.android\\build-cache\\94c8db02a634fd4360817603990d20a6925f5488\\output\\res\\layout-ldrtl-v17\\md_listitem_singlechoice.xml"
+        "merged": "C:\\Users\\paul_\\Documents\\Decawave_DWM1001_DRTLS_manager\\app\\build\\intermediates\\res\\merged\\debug\\layout-ldrtl-v17\\md_listitem_multichoice.xml",
+        "source": "C:\\Users\\paul_\\.android\\build-cache\\7b2858baf08362c363b342ccbfb0fd577f98b594\\output\\res\\layout-ldrtl-v17\\md_listitem_multichoice.xml"
     }
 ]
